@@ -1,0 +1,260 @@
+let data = {
+  personalInfo: {
+    siteName: "Hassan Raza Portfolio",
+    name: "Muhammad Hassan Raza",
+    email: "hassanejaz773@gmail.com",
+    address: "Karachi, Pakistan",
+    position1: "Full Stack Developer",
+    position2: "Mobile App Developer",
+    resume: "https://indigo-joye-52.tiiny.site/",
+    profileImage:
+      "https://avatars.githubusercontent.com/u/153998754?v=4",
+    setupImage:
+      "https://cdn.sanity.io/images/y178r8ab/production/fae1fdb810ce1939fd9af8f4f0cd07c495648ae2-1920x1440.webp",
+    moreInfo:
+      "Hello, I’m Muhammad Hassan Raza, a Full Stack Developer with a deep passion for building innovative, scalable web applications. My journey in the tech world started at an early age, and over the years, I’ve gained proficiency in technologies such as JavaScript, React.js, Node.js, and MongoDB. I thrive on overcoming challenges and am always eager to learn new skills to stay at the forefront of an ever-changing tech landscape. My focus is on creating user-centric, high-quality software that not only meets but exceeds expectations. After all, coding is like humor—if you have to explain it, something’s off!",
+    workingHours: "Monday - Saturday: 9 AM - 5 PM",
+  },
+  socialLinks: [
+    {
+      title: "GitHub",
+      url: "https://github.com/MuhammadHassanRaza25",
+      priority: 1,
+    },
+    {
+      title: "LinkedIn",
+      url: "https://www.linkedin.com/in/muhammad-hassan-raza-aab5402b7/",
+      priority: 2,
+    },
+    {
+      title: "Facebook",
+      url: "https://www.linkedin.com/in/muhammad-hassan-raza-aab5402b7/",
+      priority: 3,
+    },
+  ],
+  workExperience: [
+    {
+      position: "Front End Developement Course",
+      jobDescription:
+        "I learned about Front End Development and mastered technologies such as: HTML, CSS, JavaScript, Firebase and ReactJS.",
+      companyName: "Saylani Mass I.T Training",
+      companyLogo: "https://quiz.saylaniwelfare.com/images/smit.png",
+      startDate: "2023-12-25",
+      endDate: "2024-9-20",
+    },
+    {
+      position: "Full Stack Developement Course",
+      jobDescription:
+        "I learned about Full Stack Development and i learned Back End technologies such as: Node.js, Express.js, MongoDB.",
+      companyName: "Saylani Mass I.T Training",
+      companyLogo: "https://quiz.saylaniwelfare.com/images/smit.png",
+      startDate: "2023-12-25",
+      endDate: "2025-1-25",
+    },
+  ],
+  skills: [
+    {
+      name: "HTML",
+      image: "https://www.svgrepo.com/show/303205/html-5-logo.svg",
+    },
+    {
+      name: "CSS",
+      image: "https://www.svgrepo.com/show/353623/css-3.svg",
+    },
+    {
+      name: "Tailwind CSS",
+      image: "https://www.svgrepo.com/show/374118/tailwind.svg",
+    },
+    {
+      name: "Bootstrap",
+      image: "https://www.svgrepo.com/show/353498/bootstrap.svg",
+    },
+    {
+      name: "JavaScript",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    },
+    {
+      name: "TypeScript",
+      image: "https://www.svgrepo.com/show/303600/typescript-logo.svg",
+    },
+    {
+      name: "Git",
+      image: "https://www.svgrepo.com/show/452210/git.svg",
+    },
+    {
+      name: "Github",
+      image: "https://www.svgrepo.com/download/445786/github.svg",
+    },
+    {
+      name: "Firebase",
+      image: "https://www.svgrepo.com/show/353735/firebase.svg",
+    },
+    {
+      name: "React.js",
+      image:
+        "https://miro.medium.com/v2/resize:fit:1400/0*OLBBmwZWiKUNk685.png",
+    },
+    {
+      name: "Next.js",
+      image: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+    },
+    {
+      name: "Node.js",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlJbZnC5drwG8xBczuFg005-nD9KfJoN8idw&s",
+    },
+    {
+      name: "Express.js",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj-QOD635HWyued_HWaH0CJMjuVIhIshCw6g&s",
+    },
+    {
+      name: "MongoDB",
+      image: "https://www.svgrepo.com/show/331488/mongodb.svg",
+    },
+  ],
+  projects: [
+    {
+      title: "Learning Management System",
+      description:
+        "An intuitive platform designed to streamline the management and delivery of educational content. This system facilitates seamless course creation, assignment submissions, and student-teacher interaction, making it easier for institutions to track progress, manage content, and enhance the learning experience.",
+      images: [
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738266615/qgzeq3ispks3yelmabkm.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738266615/qgzeq3ispks3yelmabkm.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738266775/khoy1rztqttzlgu457al.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738266833/me5wchetfviuhzvix3jc.png",
+      ],
+      techStack: [
+        "ReactJS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "NextJS",
+        "Tailwind",
+        "Shadcn",
+      ],
+      liveUrl: "https://saylani-management-system.vercel.app/",
+      gitUrl:
+        "https://github.com/MuhammadAhmadAslam/Saylani-Management-Systems",
+      priority: 1,
+    },
+    {
+      title: "Real Time Chat Application Clone Of Whatsapp",
+      description:
+        "An advanced real-time chat application developed using ReactJS and Firebase, designed for seamless one-on-one private conversations. This feature-packed app allows users to exchange text messages, share photos instantly, and engage in AI-powered conversations for an enhanced chat experience. With end-to-end encryption ensuring privacy, the platform offers a fast, secure, and interactive way to connect. Perfectly tailored for modern communication, it delivers innovation and reliability in every chat.",
+      images: [
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738328085/whatsapp_jhrxg1.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738328086/whatsapp2_hmhujq.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738328086/whatsapp3_alb9ji.png",
+      ],
+      techStack: ["React", "Firebase", "Tailwind", "NextJS", "JavaScript"],
+      liveUrl: "https://ahmed-chat-app.vercel.app/",
+      gitUrl: "https://github.com/MuhammadAhmadAslam/Chat-App",
+      priority: 2,
+    },
+    {
+      title:
+        "Dynamic E-Commerce Platform with Advanced Admin Panel & Real-Time Tracking",
+      description:
+        "An innovative e-commerce solution developed using ReactJS, Firebase, and Node.js, designed to deliver a seamless shopping experience. This platform features a powerful admin panel for effortless management of products, orders, user activities, locations, categories, and subcategories. Equipped with real-time tracking, the system ensures precise order management and operational efficiency. Its modern UI/UX, secure backend, and scalable architecture make it the perfect choice for businesses aiming to thrive in the digital marketplace.",
+      images: [
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738331715/ecommerce_xgx5fq.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738331714/ecommerce3_u5ziws.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738331714/adminpaenl_in0voe.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738331714/adminpanel3_lqjzz8.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738331714/ecommerce2_xadtmq.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738331727/ecommerce1_p3qjvo.png",
+      ],
+      techStack: ["React", "Firebase", "Tailwind", "NextJS", "JavaScript"],
+      liveUrl: "https://e-commerce-xi-ebon.vercel.app/",
+      gitUrl:
+        "https://github.com/MuhammadAhmadAslam/Proffesional-E-Commerce-Website",
+      priority: 3,
+    },
+    {
+      title: "WebGlowing: Your Ultimate Developer Tool Hub",
+      description:
+        "WebGlowing.com is a collaborative project designed to empower developers and creators with a suite of powerful tools for seamless web development. From generating stunning box shadows and text shadows to crafting perfect border-radius styles, our platform simplifies your design process. Additional features include a QR code generator, text-to-speech functionality, and a CSS border generator, making WebGlowing your one-stop destination for boosting creativity and productivity. Explore, create, and glow with WebGlowing!",
+      images: [
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738332395/clpjk3hiym7xldinjvmm.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738332394/o0fozk32d1goq4tyfqja.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738332395/eppjtjvv0fqd2ui7vj1m.png",
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738332398/ykrgo8e23iybznt8bivt.png",
+      ],
+      techStack: [
+        "React",
+        "Firebase",
+        "Tailwind",
+        "NextJS",
+        "JavaScript",
+        "CSS",
+        "HTML5",
+      ],
+      liveUrl: "https://webglowing.com/",
+      gitUrl: "https://webglowing.com/",
+      priority: 4,
+    },
+  ],
+  testimonials: [
+    {
+      authorName: "Hassan Raza",
+      authorImage:
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738264164/ymye5jpue0ppqivxhqpp.jpg",
+      companyName: "Indivtiutal",
+      companyUrl: "https://github.com/MuhammadHassanRaza25",
+      position: "",
+      content:
+        "Ahmed has consistently demonstrated exceptional problem-solving skills and a passion for developing innovative solutions.",
+      priority: 1,
+    },
+    {
+      authorName: "Cassius",
+      authorImage:
+        "https://img.freepik.com/free-photo/young-handsome-man-outside-autumn-park_1303-17306.jpg?t=st=1738264355~exp=1738267955~hmac=cb50fef4cfb1a5cc0d03acfd58208d27665943177e17b1d095867f7370d0d0db&w=740",
+      companyName: "At Freelancing",
+      companyUrl: "https://github.com/MuhammadHassanRaza25",
+      position: "",
+      content:
+        "Ahmed has consistently demonstrated exceptional problem-solving skills and a passion for developing innovative solutions.",
+      priority: 1,
+    },
+    {
+      authorName: "Zora",
+      authorImage:
+        "https://img.freepik.com/free-photo/portrait-handsome-male-entrepreneur-outside-office-building-suit-formal-business-attire-smiling_1303-13732.jpg?t=st=1738264355~exp=1738267955~hmac=cb50fef4cfb1a5cc0d03acfd58208d27665943177e17b1d095867f7370d0d0db&w=740",
+      companyName: "Integral Technologists",
+      companyUrl: "https://www.integraltechnologists.com",
+      position: "",
+      content:
+        "Ahmed is an exceptional full-stack developer with a keen eye for detail and a strong drive for excellence. His work ethic and dedication are unmatched.",
+      priority: 2,
+    },
+    {
+      authorName: "Elowen",
+      authorImage:
+        "https://img.freepik.com/free-photo/female-entrepreneur-successful-young-woman-working-office_1303-12372.jpg?t=st=1738264355~exp=1738267955~hmac=cb50fef4cfb1a5cc0d03acfd58208d27665943177e17b1d095867f7370d0d0db&w=740",
+      companyName: "Tech Innovators",
+      companyUrl: "https://www.techinnovators.com",
+      position: "",
+      content:
+        "Working with Ahmed has been an incredible experience. His creativity, problem-solving abilities, and dedication to delivering high-quality results set him apart.",
+      priority: 3,
+    },
+  ],
+  certificates: [
+    {
+      title: "MERN Stack Development",
+      image:
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738262605/pgolhnkpjkkx9rx1ozip.png",
+      url: "https://example.com/mern-certificate",
+    },
+    {
+      title: "React Native Mastery",
+      image:
+        "https://res.cloudinary.com/durstxroh/image/upload/v1738262605/vb4oyrkyufcsyo0cvekb.png",
+      url: "https://example.com/react-native-certificate",
+    },
+  ],
+};
+export default data;

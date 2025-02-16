@@ -1,19 +1,18 @@
 import { Highlight } from "./ui/hero-highlight";
 import { Spotlight } from "./ui/Spotlight";
-import Image from "next/image";
-import { FaLocationArrow } from "react-icons/fa6";
-import { PiDownloadSimpleBold } from "react-icons/pi";
 import { MotionUp } from "./ui/motion-up";
 import { FlipWords } from "./ui/flip-words";
+import { FloatingDock } from "./ui/floating-dock";
 import {
-  IconBrandGithub,
-  IconBrandX,
-  IconExchange,
   IconHome,
   IconNewSection,
   IconTerminal2,
 } from "@tabler/icons-react";
-import { FloatingDock } from "../components/ui/floating-dock";
+import Image from "next/image";
+import { FaLocationArrow } from "react-icons/fa6";
+import { PiDownloadSimpleBold } from "react-icons/pi";
+import { RiContactsLine } from "react-icons/ri";
+import { RiToolsFill } from "react-icons/ri";
 
 export default function Hero({ data }) {
   const words = [data.position1, data.position2];
@@ -26,40 +25,31 @@ export default function Hero({ data }) {
       ),
       href: "#",
     },
-
     {
-      title: "Products",
-      icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Components",
+      title: "About",
       icon: (
         <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
     {
-      title: "Changelog",
+      title: "Skills",
       icon: (
-        <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-
-    {
-      title: "Twitter",
-      icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <RiToolsFill  className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
     {
-      title: "GitHub",
+      title: "Projects",
       icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
+    },
+    {
+      title: "Contact",
+      icon: (
+        <RiContactsLine className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
@@ -71,7 +61,7 @@ export default function Hero({ data }) {
         className="-z-20 lg:left-80 left-10 lg:top-28 lg:h-[90vh] h-[100vh] w-[50vw]"
         fill="lightblue"
       />
-       
+
       {/* Hero Section Start */}
       <div className="flex lg:flex-row flex-col lg:pt-[0] pt-20 lg:px-10 px-6 items-center justify-evenly min-h-[90vh] dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
         <div className="flex flex-col lg:gap-6 gap-5">
@@ -136,7 +126,7 @@ export default function Hero({ data }) {
       {/* Hero Section End */}
 
       {/* About Me */}
-      <div className="h-96 pt-14 dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
+      <div className="h-96 pt-16 dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
         <h1>In'shallah this will complete soon 💙</h1>
       </div>
     </>

@@ -2,58 +2,13 @@ import { Highlight } from "./ui/hero-highlight";
 import { Spotlight } from "./ui/Spotlight";
 import { MotionUp } from "./ui/motion-up";
 import { FlipWords } from "./ui/flip-words";
-import { FloatingDock } from "./ui/floating-dock";
-import {
-  IconHome,
-  IconNewSection,
-  IconTerminal2,
-} from "@tabler/icons-react";
 import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 import { PiDownloadSimpleBold } from "react-icons/pi";
-import { RiContactsLine } from "react-icons/ri";
-import { RiToolsFill } from "react-icons/ri";
+import scrollicon from "../assets/images/scrollicon.gif";
 
 export default function Hero({ data }) {
   const words = [data.position1, data.position2];
-
-  const links = [
-    {
-      title: "Home",
-      icon: (
-        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "About",
-      icon: (
-        <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Skills",
-      icon: (
-        <RiToolsFill  className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Projects",
-      icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Contact",
-      icon: (
-        <RiContactsLine className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-  ];
 
   return (
     <>
@@ -62,7 +17,6 @@ export default function Hero({ data }) {
         fill="lightblue"
       />
 
-      {/* Hero Section Start */}
       <div className="flex lg:flex-row flex-col lg:pt-[0] pt-20 lg:px-10 px-6 items-center justify-evenly min-h-[90vh] dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
         <div className="flex flex-col lg:gap-6 gap-5">
           <MotionUp delay={0}>
@@ -73,7 +27,7 @@ export default function Hero({ data }) {
 
           <MotionUp delay={0}>
             <div>
-              <Highlight className="text-white font-extrabold lg:text-5xl text-2xl">
+              <Highlight className="text-white font-extrabold lg:text-4xl text-2xl">
                 {/* {data.position} */}
                 <FlipWords words={words} />
               </Highlight>
@@ -99,12 +53,19 @@ export default function Hero({ data }) {
 
           <MotionUp delay={0.7}>
             <div className="flex gap-5">
-              <button className="btn flex items-center gap-2 text-white font-semibold lg:px-12 px-5 py-2 lg:text-xl sm:text-base rounded-md">
+              <button className="btn cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-12 px-5 py-2 lg:text-xl sm:text-base rounded-md">
                 Say Hi <FaLocationArrow />
               </button>
-              <button className="btn flex items-center gap-2 text-white font-semibold lg:px-12 px-5 py-2 lg:text-xl sm:text-base rounded-md">
+              <button className="btn cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-12 px-5 py-2 lg:text-xl sm:text-base rounded-md">
                 Resume <PiDownloadSimpleBold />
               </button>
+            </div>
+          </MotionUp>
+
+          <MotionUp delay={0.8}>
+            <div className="lg:flex items-center pl-1 hidden">
+              <p className="text-lg font-medium">Scroll Down</p>
+              <Image src={scrollicon} width={40} height={40}></Image>
             </div>
           </MotionUp>
         </div>
@@ -113,21 +74,13 @@ export default function Hero({ data }) {
           <div className="lg:mt-0 mt-10">
             <Image
               className="rounded-lg"
-              width={330}
-              height={330}
+              width={340}
+              height={340}
               src={"https://avatars.githubusercontent.com/u/153998754?v=4"}
               alt="hero image"
             ></Image>
           </div>
         </MotionUp>
-      </div>
-
-      <FloatingDock items={links} />
-      {/* Hero Section End */}
-
-      {/* About Me */}
-      <div className="h-96 pt-16 dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
-        <h1>In'shallah this will complete soon 💙</h1>
       </div>
     </>
   );

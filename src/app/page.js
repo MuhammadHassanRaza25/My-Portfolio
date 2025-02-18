@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Header/>
       <Hero data={data.personalInfo}/>
-      <Aboutme/>
+      <Aboutme data={data.personalInfo}/>
     </>
   );
 }

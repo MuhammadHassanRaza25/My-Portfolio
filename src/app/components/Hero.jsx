@@ -13,6 +13,7 @@ export default function Hero({ data }) {
   return (
     <>
       <Spotlight
+        id="home"
         className="-z-20 lg:left-80 left-10 lg:top-28 lg:h-[90vh] h-[100vh] w-[50vw]"
         fill="lightblue"
       />
@@ -53,10 +54,10 @@ export default function Hero({ data }) {
 
           <MotionUp delay={0.7}>
             <div className="flex gap-5">
-              <button className="btn cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-12 px-5 py-2 lg:text-xl sm:text-base rounded-md">
+              <button className="shadow-black hover:shadow-lg animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-10 px-5 py-2 lg:text-xl sm:text-base rounded-md">
                 Say Hi <FaLocationArrow />
               </button>
-              <button className="btn cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-12 px-5 py-2 lg:text-xl sm:text-base rounded-md">
+              <button className="shadow-black hover:shadow-lg animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-10 px-5 py-2 lg:text-xl sm:text-base rounded-md">
                 Resume <PiDownloadSimpleBold />
               </button>
             </div>
@@ -65,7 +66,7 @@ export default function Hero({ data }) {
           <MotionUp delay={0.8}>
             <div className="lg:flex items-center pl-1 hidden">
               <p className="text-lg font-medium">Scroll Down</p>
-              <Image src={scrollicon} width={40} height={40}></Image>
+              <Image src={scrollicon} width={40} height={40} alt="scroll image"></Image>
             </div>
           </MotionUp>
         </div>

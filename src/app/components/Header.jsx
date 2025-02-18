@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="flex justify-between sticky top-0 z-50 p-5 lg:px-[11vw] px-6 bg-white border-b">
+      <div className="flex justify-between sticky top-0 z-50 p-5 lg:px-[12vw] px-6 bg-white border-b">
         <div>
           <h1 className="font-semibold text-lg">Muhammad Hassan Raza</h1>
         </div>
@@ -47,10 +47,10 @@ export default function Header() {
 
         {/* Desktop screen Links) */}
         <div className="hidden lg:flex justify-center items-center gap-5">
-          <Link href={"/"} className="font-semibold hover:text-blue-700">
+          <Link href={"#home"} className="font-semibold hover:text-blue-700">
             <p>Home</p>
           </Link>
-          <Link href={"/"} className="font-semibold hover:text-blue-700">
+          <Link href={"#about"} className="font-semibold hover:text-blue-700">
             <p>About</p>
           </Link>
           <Link href={"/"} className="font-semibold hover:text-blue-700">

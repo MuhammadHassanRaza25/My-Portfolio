@@ -11,7 +11,7 @@ let data = {
       "https://avatars.githubusercontent.com/u/153998754?v=4",
     setupImage:
       "https://cdn.sanity.io/images/y178r8ab/production/fae1fdb810ce1939fd9af8f4f0cd07c495648ae2-1920x1440.webp",
-    moreInfo:
+    description:
       "Hello, I’m Muhammad Hassan Raza, a Full Stack Developer with a deep passion for building innovative, scalable web applications. My journey in the tech world started at an early age, and over the years, I’ve gained proficiency in technologies such as JavaScript, React.js, Node.js, and MongoDB. I thrive on overcoming challenges and am always eager to learn new skills to stay at the forefront of an ever-changing tech landscape. My focus is on creating user-centric, high-quality software that not only meets but exceeds expectations. After all, coding is like humor—if you have to explain it, something’s off!",
     workingHours: "Monday - Saturday: 9 AM - 5 PM",
   },

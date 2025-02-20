@@ -4,7 +4,7 @@ import { MotionUp } from "./ui/motion-up";
 export default function Aboutme({ data }) {
   return (
     <>
-      <div id="about" className="flex flex-col items-center justify-center lg:pt-[0] pt-24 dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
+      <div id="about" className="flex flex-col items-center justify-center lg:pt-10 pt-24">
         <MotionUp delay={0}>
           <h1 className="text-black font-bold lg:text-4xl text-2xl text-center">
             About Me{" "}
@@ -15,7 +15,7 @@ export default function Aboutme({ data }) {
         </MotionUp>
       </div>
 
-      <div className="flex lg:flex-row flex-col lg:px-10 items-center justify-evenly min-h-[80vh] dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
+      <div className="container flex lg:flex-row flex-col items-center justify-evenly min-h-[500px]">
         <MotionUp delay={0}>
           <div className="lg:mt-0 mt-10">
             <Image
@@ -30,7 +30,7 @@ export default function Aboutme({ data }) {
 
         <div className="flex lg:gap-6 gap-5">
           <MotionUp delay={0.3}>
-            <p className="aboutDesc text-black lg:w-[40vw] md:w-[38vw] sm:w-[48vw] font-semiold lg:text-xl md:text-xl lg:pt-0 pt-10">
+            <p className="aboutDesc text-black lg:w-[550px] md:w-[38vw] sm:w-[48vw] font-semibold lg:text-xl md:text-xl lg:pt-0 pt-10">
               {data.description}
             </p>
           </MotionUp>

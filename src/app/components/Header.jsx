@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="flex justify-between sticky top-0 z-50 p-5 lg:px-[12vw] px-6 bg-white border-b">
+      <div className="containerHeader flex justify-between sticky top-0 z-50 p-5 bg-white border-b">
         <div>
           <h1 className="font-semibold text-lg">Muhammad Hassan Raza</h1>
         </div>

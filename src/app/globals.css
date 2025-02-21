@@ -33,7 +33,7 @@ body {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .containerHeader {
-  max-width: 1060px;
+  max-width: 1055px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -45,11 +45,12 @@ body {
 
 @media(max-width:640px){
   .aboutDesc{
-    width: 55vw;
+    width: 65vw;
+    margin-left: 1vw;
   }
 }
 @media(max-width:430px){
   .aboutDesc{
-    width: 85vw;
+    width: 90vw;
   }
 }

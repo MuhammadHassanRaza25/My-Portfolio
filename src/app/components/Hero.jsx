@@ -6,6 +6,7 @@ import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 import { PiDownloadSimpleBold } from "react-icons/pi";
 import scrollicon from "../assets/images/scrollicon.gif";
+import myimage from "../assets/images/myimage.jpg";
 
 export default function Hero({ data }) {
   const words = [data.position1, data.position2];
@@ -14,12 +15,12 @@ export default function Hero({ data }) {
     <>
       {/* <Spotlight
         id="home"
-        className="lg:left-80 left-10 lg:top-28 lg:h-[90vh] h-[100vh] w-[50vw]"
+        className="z-50 lg:left-80 left-10 lg:top-28 lg:h-[90vh] h-[100vh] w-[50vw]"
         fill="lightblue"
       /> */}
 
       <div className="container flex lg:flex-row flex-col lg:pt-0 pt-20 items-center justify-evenly min-h-[575px]">
-        <div className="flex flex-col lg:gap-6 gap-5">
+        <div className="flex flex-col lg:gap-6 gap-5 px-5 lg:z-0 -z-50">
           <MotionUp delay={0}>
             <h1 className="text-black font-extrabold lg:text-4xl text-2xl">
               Hi, I'm Muhammad Hassan Raza
@@ -54,10 +55,10 @@ export default function Hero({ data }) {
 
           <MotionUp delay={0.7}>
             <div className="flex gap-5">
-              <button className="shadow-black hover:shadow-lg animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-10 px-5 py-2 lg:text-xl sm:text-base rounded-md">
+              <button className="shadow-black hover:shadow-md animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-10 px-5 py-2 lg:text-xl sm:text-base rounded-md">
                 Say Hi <FaLocationArrow />
               </button>
-              <button className="shadow-black hover:shadow-lg animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-10 px-5 py-2 lg:text-xl sm:text-base rounded-md">
+              <button className="shadow-black hover:shadow-md animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-10 px-5 py-2 lg:text-xl sm:text-base rounded-md">
                 Resume <PiDownloadSimpleBold />
               </button>
             </div>
@@ -82,7 +83,7 @@ export default function Hero({ data }) {
               className="rounded-lg"
               width={340}
               height={340}
-              src={"https://avatars.githubusercontent.com/u/153998754?v=4"}
+              src={myimage}
               alt="hero image"
             ></Image>
           </div>

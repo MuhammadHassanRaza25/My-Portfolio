@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="containerHeader flex justify-between sticky top-0 z-50 p-5 bg-white border-b">
+      <div className="containerHeader flex justify-between p-5 z-50 bg-white">
         <div>
           <h1 className="font-semibold text-lg">Muhammad Hassan Raza</h1>
         </div>
@@ -41,6 +41,7 @@ export default function Header() {
             height={6}
             className="w-6 h-6 text-gray-700 cursor-pointer"
             src={"https://www.svgrepo.com/show/509298/align-right.svg"}
+            alt="icon"
           ></Image>
           )}
         </div>

@@ -32,34 +32,42 @@ let data = {
       priority: 3,
     },
   ],
-  workExperience: [
+  education: [
     {
-      position: "Front End Developement Course",
-      jobDescription:
-        "I learned about Front End Development and mastered technologies such as: HTML, CSS, JavaScript, Firebase and ReactJS.",
-      companyName: "Saylani Mass I.T Training",
-      companyLogo: "https://quiz.saylaniwelfare.com/images/smit.png",
-      startDate: "2023-12-25",
-      endDate: "2024-9-20",
+      title: "December 2023 - July 2024",
+      position: "Front End Development Course",
+      instituteName: "Saylani Mass IT Training",
+      point1: "Learned about basic technologies of Web development.",
+      point2: "Studied HTML CSS, JavaScript and Firebase.",
+      point3: "I'm group leader of my Batch in Front End Development",
+      point4: "Developed Blogging Website as Final Project using HTML CSS JS and Firebase.",
     },
     {
-      position: "Full Stack Developement Course",
-      jobDescription:
-        "I learned about Full Stack Development and i learned Back End technologies such as: Node.js, Express.js, MongoDB.",
-      companyName: "Saylani Mass I.T Training",
-      companyLogo: "https://quiz.saylaniwelfare.com/images/smit.png",
-      startDate: "2023-12-25",
-      endDate: "2025-1-25",
+      title: "July 2024 - November 2024",
+      position: "Full Stack Development Course",
+      instituteName: "Saylani Mass IT Training",
+      point1: "Learned technologies such as ReactJS, NextJS, NodeJs, ExpressJS and MongoDB.",
+      point2: "Practiced mordern Frontend and Backend Technologies.",
+      point3: "I'm group leader of my Batch in Front End Development",
+      point4: "Made LMS using MERN Stack: MongoDB, ExpressJS, ReactJS, NodeJS.",
+    },
+    {
+      title: "November 2024 - January 2025",
+      position: "Mobile App Development Course",
+      instituteName: "Saylani Mass IT Training",
+      point1: "Studied about React native.",
+      point2: "Learned about Mobile App development.",
+      point3: "Made Bykea ui/ux using React Native.",
     },
   ],
   skills: [
     {
       name: "HTML",
-      image: "https://www.svgrepo.com/show/303205/html-5-logo.svg",
+      image: "https://www.svgrepo.com/show/452228/html-5.svg",
     },
     {
       name: "CSS",
-      image: "https://www.svgrepo.com/show/353623/css-3.svg",
+      image: "https://www.svgrepo.com/show/452185/css-3.svg",
     },
     {
       name: "Tailwind CSS",
@@ -93,7 +101,7 @@ let data = {
     {
       name: "React.js",
       image:
-        "https://miro.medium.com/v2/resize:fit:1400/0*OLBBmwZWiKUNk685.png",
+        "https://www.svgrepo.com/show/452092/react.svg",
     },
     {
       name: "Next.js",
@@ -101,8 +109,7 @@ let data = {
     },
     {
       name: "Node.js",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlJbZnC5drwG8xBczuFg005-nD9KfJoN8idw&s",
+      image: "https://www.svgrepo.com/show/373929/node.svg",
     },
     {
       name: "Express.js",
@@ -240,20 +247,6 @@ let data = {
       content:
         "Working with Ahmed has been an incredible experience. His creativity, problem-solving abilities, and dedication to delivering high-quality results set him apart.",
       priority: 3,
-    },
-  ],
-  certificates: [
-    {
-      title: "MERN Stack Development",
-      image:
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738262605/pgolhnkpjkkx9rx1ozip.png",
-      url: "https://example.com/mern-certificate",
-    },
-    {
-      title: "React Native Mastery",
-      image:
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738262605/vb4oyrkyufcsyo0cvekb.png",
-      url: "https://example.com/react-native-certificate",
     },
   ],
 };

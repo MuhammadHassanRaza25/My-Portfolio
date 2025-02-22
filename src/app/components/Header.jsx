@@ -54,7 +54,7 @@ export default function Header() {
           <Link href={"#about"} className="font-semibold hover:text-blue-700">
             <p>About</p>
           </Link>
-          <Link href={"/"} className="font-semibold hover:text-blue-700">
+          <Link href={"#skills"} className="font-semibold hover:text-blue-700">
             <p>Skills</p>
           </Link>
           <Link href={"/"} className="font-semibold hover:text-blue-700">
@@ -71,13 +71,13 @@ export default function Header() {
         {/* Mobile screen Links */}
         {isOpen && (
           <div className="flex flex-col items-start gap-5 pl-7 justify-center lg:hidden absolute top-16 left-0 w-full bg-white shadow-lg">
-            <Link href={"/"} className="font-semibold hover:text-blue-700">
+            <Link href={"#home"} className="font-semibold hover:text-blue-700">
               <p>Home</p>
             </Link>
-            <Link href={"/"} className="font-semibold hover:text-blue-700">
+            <Link href={"#about"} className="font-semibold hover:text-blue-700">
               <p>About</p>
             </Link>
-            <Link href={"/"} className="font-semibold hover:text-blue-700">
+            <Link href={"#skills"} className="font-semibold hover:text-blue-700">
               <p>Skills</p>
             </Link>
             <Link href={"/"} className="font-semibold hover:text-blue-700">

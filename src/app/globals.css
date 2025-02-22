@@ -14,6 +14,20 @@
   }
 }
 
+/* skill cards animation */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.animate-scroll {
+  animation: scrollLeft var(--animation-duration) linear infinite;
+}
+/* skill cards animation */
+
 html {
   scroll-behavior: smooth;
 }

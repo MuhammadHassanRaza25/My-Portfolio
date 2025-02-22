@@ -15,7 +15,7 @@ export default function Aboutme({ data }) {
           </h1>
         </MotionUp>
         <MotionUp delay={0}>
-          <p className="text-base font-semibold">My Introduction</p>
+          <p className="text-base font-semibold text-gray-500">My Introduction</p>
         </MotionUp>
       </div>
 

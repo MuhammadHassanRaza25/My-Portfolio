@@ -20,7 +20,7 @@ export default function Education() {
             <li>Studied HTML CSS, JavaScript and Firebase.</li>
             <li>I'm group leader of my Batch in Front End Development.</li>
             <li>
-              Developed Blogging Website as Final Project using HTML CSS JS and
+              Developed Blogging Website as a Final Project using HTML, CSS, JS and
               Firebase.
             </li>
           </ul>

@@ -20,7 +20,7 @@ export default function Skills({ data }) {
         </MotionUp>
       </div>
 
-      <div className="container lg:px-28 px-3 pt-10 min-h-[300px]">
+      <div className="container lg:px-28 px-3 pt-10 min-h-[350px]">
         <MotionUp delay={0.2}>
           <InfiniteMovingCards items={data} direction="right" speed="normal" />
         </MotionUp>

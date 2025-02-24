@@ -203,51 +203,5 @@ let data = {
       priority: 4,
     },
   ],
-  testimonials: [
-    {
-      authorName: "Hassan Raza",
-      authorImage:
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738264164/ymye5jpue0ppqivxhqpp.jpg",
-      companyName: "Indivtiutal",
-      companyUrl: "https://github.com/MuhammadHassanRaza25",
-      position: "",
-      content:
-        "Ahmed has consistently demonstrated exceptional problem-solving skills and a passion for developing innovative solutions.",
-      priority: 1,
-    },
-    {
-      authorName: "Cassius",
-      authorImage:
-        "https://img.freepik.com/free-photo/young-handsome-man-outside-autumn-park_1303-17306.jpg?t=st=1738264355~exp=1738267955~hmac=cb50fef4cfb1a5cc0d03acfd58208d27665943177e17b1d095867f7370d0d0db&w=740",
-      companyName: "At Freelancing",
-      companyUrl: "https://github.com/MuhammadHassanRaza25",
-      position: "",
-      content:
-        "Ahmed has consistently demonstrated exceptional problem-solving skills and a passion for developing innovative solutions.",
-      priority: 1,
-    },
-    {
-      authorName: "Zora",
-      authorImage:
-        "https://img.freepik.com/free-photo/portrait-handsome-male-entrepreneur-outside-office-building-suit-formal-business-attire-smiling_1303-13732.jpg?t=st=1738264355~exp=1738267955~hmac=cb50fef4cfb1a5cc0d03acfd58208d27665943177e17b1d095867f7370d0d0db&w=740",
-      companyName: "Integral Technologists",
-      companyUrl: "https://www.integraltechnologists.com",
-      position: "",
-      content:
-        "Ahmed is an exceptional full-stack developer with a keen eye for detail and a strong drive for excellence. His work ethic and dedication are unmatched.",
-      priority: 2,
-    },
-    {
-      authorName: "Elowen",
-      authorImage:
-        "https://img.freepik.com/free-photo/female-entrepreneur-successful-young-woman-working-office_1303-12372.jpg?t=st=1738264355~exp=1738267955~hmac=cb50fef4cfb1a5cc0d03acfd58208d27665943177e17b1d095867f7370d0d0db&w=740",
-      companyName: "Tech Innovators",
-      companyUrl: "https://www.techinnovators.com",
-      position: "",
-      content:
-        "Working with Ahmed has been an incredible experience. His creativity, problem-solving abilities, and dedication to delivering high-quality results set him apart.",
-      priority: 3,
-    },
-  ],
 };
 export default data;

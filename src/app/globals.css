@@ -64,7 +64,7 @@ body {
 @media(max-width:1024px){
   .servicesCardDiv{
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
   }
   .serviceCard{
     height: 220px;

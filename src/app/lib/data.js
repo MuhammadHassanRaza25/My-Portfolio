@@ -133,21 +133,20 @@ let data = {
         "https://res.cloudinary.com/durstxroh/image/upload/v1738266833/me5wchetfviuhzvix3jc.png",
       ],
       techStack: [
+        "MongoDB",
+        "Express",
         "ReactJS",
         "Node.js",
-        "Express",
-        "MongoDB",
-        "NextJS",
-        "Tailwind",
+        "Tailwind CSS",
         "Shadcn",
       ],
       liveUrl: "https://saylani-management-system.vercel.app/",
       gitUrl:
-        "https://github.com/MuhammadAhmadAslam/Saylani-Management-Systems",
+        "https://github.com/MuhammadHassanRaza25/Saylani-LMS",
       priority: 1,
     },
     {
-      title: "Real Time Chat Application Clone Of Whatsapp",
+      title: "E-Commerce website with admin dashboard",
       description:
         "An advanced real-time chat application developed using ReactJS and Firebase, designed for seamless one-on-one private conversations. This feature-packed app allows users to exchange text messages, share photos instantly, and engage in AI-powered conversations for an enhanced chat experience. With end-to-end encryption ensuring privacy, the platform offers a fast, secure, and interactive way to connect. Perfectly tailored for modern communication, it delivers innovation and reliability in every chat.",
       images: [
@@ -155,14 +154,14 @@ let data = {
         "https://res.cloudinary.com/durstxroh/image/upload/v1738328086/whatsapp2_hmhujq.png",
         "https://res.cloudinary.com/durstxroh/image/upload/v1738328086/whatsapp3_alb9ji.png",
       ],
-      techStack: ["React", "Firebase", "Tailwind", "NextJS", "JavaScript"],
-      liveUrl: "https://ahmed-chat-app.vercel.app/",
-      gitUrl: "https://github.com/MuhammadAhmadAslam/Chat-App",
+      techStack: ["JavaScript","Tailwind CSS", "React.js", "Firebase",],
+      liveUrl: "https://hassanonlinestore.vercel.app/",
+      gitUrl: "https://github.com/MuhammadHassanRaza25/E-commerce-Website-React",
       priority: 2,
     },
     {
       title:
-        "Dynamic E-Commerce Platform with Advanced Admin Panel & Real-Time Tracking",
+        "Quotes App",
       description:
         "An innovative e-commerce solution developed using ReactJS, Firebase, and Node.js, designed to deliver a seamless shopping experience. This platform features a powerful admin panel for effortless management of products, orders, user activities, locations, categories, and subcategories. Equipped with real-time tracking, the system ensures precise order management and operational efficiency. Its modern UI/UX, secure backend, and scalable architecture make it the perfect choice for businesses aiming to thrive in the digital marketplace.",
       images: [
@@ -173,10 +172,10 @@ let data = {
         "https://res.cloudinary.com/durstxroh/image/upload/v1738331714/ecommerce2_xadtmq.png",
         "https://res.cloudinary.com/durstxroh/image/upload/v1738331727/ecommerce1_p3qjvo.png",
       ],
-      techStack: ["React", "Firebase", "Tailwind", "NextJS", "JavaScript"],
-      liveUrl: "https://e-commerce-xi-ebon.vercel.app/",
+      techStack: ["JavaScript", "React.js", "Next.js", "Tailwind CSS" ],
+      liveUrl: "https://quotes-app-next-js.vercel.app/",
       gitUrl:
-        "https://github.com/MuhammadAhmadAslam/Proffesional-E-Commerce-Website",
+        "https://github.com/MuhammadHassanRaza25/Quotes-App-NextJS",
       priority: 3,
     },
     {
@@ -190,16 +189,12 @@ let data = {
         "https://res.cloudinary.com/durstxroh/image/upload/v1738332398/ykrgo8e23iybznt8bivt.png",
       ],
       techStack: [
-        "React",
-        "Firebase",
-        "Tailwind",
-        "NextJS",
-        "JavaScript",
-        "CSS",
         "HTML5",
+        "CSS3",
+        "JavaScript",
       ],
       liveUrl: "https://webglowing.com/",
-      gitUrl: "https://webglowing.com/",
+      gitUrl: "https://github.com/MuhammadHassanRaza25/Web-Glowing",
       priority: 4,
     },
   ],

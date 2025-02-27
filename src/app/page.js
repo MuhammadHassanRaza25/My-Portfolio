@@ -2,6 +2,7 @@ import Hero from "../app/components/Hero.jsx";
 import Aboutme from "./components/Aboutme.jsx";
 import Education from "./components/Education.jsx";
 import Header from "./components/Header.jsx";
+import Projects from "./components/Projects.jsx";
 import Services from "./components/Services.jsx";
 import Skills from "./components/Skills.jsx";
 import data from "./lib/data.js";
@@ -20,6 +21,10 @@ export default function Home() {
       </div>
       <div className="dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
          <Services/>
+         {/* <Projects/> */}
+      </div>
+      <div className="dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
+         <Projects/>
       </div>
     </>
   );

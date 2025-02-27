@@ -60,7 +60,7 @@ export default function Header() {
           <Link href={"#services"} className="font-semibold hover:text-blue-700">
             <p>Services</p>
           </Link>
-          <Link href={"/"} className="font-semibold hover:text-blue-700">
+          <Link href={"#projects"} className="font-semibold hover:text-blue-700">
             <p>Projects</p>
           </Link>
           <Link href={"/"} className="font-semibold hover:text-blue-700">
@@ -83,7 +83,7 @@ export default function Header() {
             <Link href={"#services"} className="font-semibold hover:text-blue-700">
               <p>Services</p>
             </Link>
-            <Link href={"/"} className="font-semibold hover:text-blue-700">
+            <Link href={"#projects"} className="font-semibold hover:text-blue-700">
               <p>Projects</p>
             </Link>
             <Link href={"/"} className="font-semibold hover:text-blue-700 mb-3">

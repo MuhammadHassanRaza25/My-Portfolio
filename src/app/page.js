@@ -21,7 +21,6 @@ export default function Home() {
       </div>
       <div className="dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
          <Services/>
-         {/* <Projects/> */}
       </div>
       <div className="dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
          <Projects/>

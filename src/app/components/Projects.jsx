@@ -2,12 +2,23 @@ import { MotionUp } from "./ui/motion-up";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 // import Link from "next/link";
 import Image from "next/image";
+// import lmsimg1 from "../assets/images/lmsimg1.png"
+import lmsimg2 from "../assets/images/lmsimg2.png"
+// import lmsimg3 from "../assets/images/lmsimg3.png"
+// import lmsimg4 from "../assets/images/lmsimg4.png"
+import ecommerceimg1 from "../assets/images/ecommerceimg1.png"
+// import ecommerceimg2 from "../assets/images/ecommerceimg2.png"
+// import ecommerceimg3 from "../assets/images/ecommerceimg3.png"
+// import ecommerceimg5 from "../assets/images/ecommerceimg5.png"
+import webglowingimg1 from "../assets/images/webglowingimg1.png"
+import { FaArrowRight } from "react-icons/fa6";
+import { CgMoreO } from "react-icons/cg";
 
 export default function Projects() { 
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center lg:pt-24 pt-24">
+      <div className="flex flex-col items-center justify-center lg:pt-24 pt-24 lg:mb-0 mb-7">
         <MotionUp delay={0}>
           <h1 className="text-black font-bold lg:text-4xl text-2xl text-center">
             Project Overview{" "}
@@ -20,16 +31,16 @@ export default function Projects() {
         </MotionUp>
       </div>
 
-      <div id="projects" className="container flex lg:px-14 px-5 mt-5 lg:flex-row flex-col items-center justify-evenly"> 
+      <div id="projects" className="container flex lg:px-14 px-5 mt-3 lg:flex-row flex-col items-center justify-evenly"> 
         <MotionUp delay={0.1}>
           <CardContainer className="inter-var w-full my-4 flex items-stretch">
             <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] min-h-[400px] h-full rounded-xl p-4 border">
               <CardItem translateZ="100" className="w-full">
                 <Image
-                  src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src={lmsimg2}
                   height="1000"
                   width="1000"
-                  className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                  className="border border-gray-300 h-48 w-full rounded-xl group-hover/card:shadow-xl"
                   alt="thumbnail"
                 />
               </CardItem>
@@ -37,7 +48,7 @@ export default function Projects() {
                 translateZ="50"
                 className="mt-4 text-xl font-bold text-neutral-600 dark:text-white"
               >
-                Make things float in air
+                Learning Management System
               </CardItem>
               <CardItem
                 as="p"
@@ -48,13 +59,20 @@ export default function Projects() {
                 Hover over this card to unleash the power of CSS perspective
                 Hover over this card to unleash the power of CSS perspective...
               </CardItem>
-              <div className="flex justify-end items-center mt-4">
+              <div className="flex justify-center items-center gap-5 mt-5">
+              <CardItem
+                  translateZ={20}
+                  as="button"
+                  className="flex items-center gap-2 px-7 py-2 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                >
+                  Live Demo <FaArrowRight />
+                </CardItem>
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                  className="flex items-center gap-2 px-7 py-2 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
-                  Read More
+                  Read More <CgMoreO />
                 </CardItem>
               </div>
             </CardBody>
@@ -66,10 +84,10 @@ export default function Projects() {
             <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] min-h-[400px] h-full rounded-xl p-4 border">
               <CardItem translateZ="100" className="w-full">
                 <Image
-                  src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src={ecommerceimg1}
                   height="1000"
                   width="1000"
-                  className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                  className="border border-gray-300 h-48 w-full rounded-xl group-hover/card:shadow-xl"
                   alt="thumbnail"
                 />
               </CardItem>
@@ -77,7 +95,7 @@ export default function Projects() {
                 translateZ="50"
                 className="mt-4 text-xl font-bold text-neutral-600 dark:text-white"
               >
-                Make things float in air
+                E-Commerce Website
               </CardItem>
               <CardItem
                 as="p"
@@ -88,13 +106,20 @@ export default function Projects() {
                 Hover over this card to unleash the power of CSS perspective
                 Hover over this card to unleash the power of CSS perspective...
               </CardItem>
-              <div className="flex justify-end items-center mt-4">
+              <div className="flex justify-center items-center gap-5 mt-5">
+              <CardItem
+                  translateZ={20}
+                  as="button"
+                  className="flex items-center gap-2 px-7 py-2 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                >
+                  Live Demo <FaArrowRight />
+                </CardItem>
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                  className="flex items-center gap-2 px-7 py-2 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
-                  Read More
+                  Read More <CgMoreO />
                 </CardItem>
               </div>
             </CardBody>
@@ -106,10 +131,10 @@ export default function Projects() {
             <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] min-h-[400px] h-full rounded-xl p-4 border">
               <CardItem translateZ="100" className="w-full">
                 <Image
-                  src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src={webglowingimg1}
                   height="1000"
                   width="1000"
-                  className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                  className="border border-gray-300 h-48 w-full rounded-xl group-hover/card:shadow-xl"
                   alt="thumbnail"
                 />
               </CardItem>
@@ -117,7 +142,7 @@ export default function Projects() {
                 translateZ="50"
                 className="mt-4 text-xl font-bold text-neutral-600 dark:text-white"
               >
-                Make things float in air
+                Web Glowing
               </CardItem>
               <CardItem
                 as="p"
@@ -128,13 +153,20 @@ export default function Projects() {
                 Hover over this card to unleash the power of CSS perspective
                 Hover over this card to unleash the power of CSS perspective...
               </CardItem>
-              <div className="flex justify-end items-center mt-4">
+              <div className="flex justify-center items-center gap-5 mt-5">
+              <CardItem
+                  translateZ={20}
+                  as="button"
+                  className="flex items-center gap-2 px-7 py-2 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                >
+                  Live Demo <FaArrowRight />
+                </CardItem>
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                  className="flex items-center gap-2 px-7 py-2 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
-                  Read More
+                  Read More <CgMoreO />
                 </CardItem>
               </div>
             </CardBody>

@@ -65,6 +65,7 @@ body {
   .servicesCardDiv{
     flex-direction: column;
     gap: 15px;
+    margin-top: 7%;
   }
   .serviceCard{
     height: 220px;
@@ -80,7 +81,11 @@ body {
   .aboutDesc{
     width: 90vw;
   }
+  .servicesCardDiv{
+    margin-top: 10%;
+  }
   .serviceCard{
     height: 260px;
+    margin-bottom: 3%;
   }
 }

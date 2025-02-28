@@ -128,7 +128,6 @@ let data = {
         "An intuitive platform designed to streamline the management and delivery of educational content. This system facilitates seamless course creation, assignment submissions, and student-teacher interaction, making it easier for institutions to track progress, manage content, and enhance the learning experience.",
       images: [
         "https://res.cloudinary.com/durstxroh/image/upload/v1738266615/qgzeq3ispks3yelmabkm.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738266615/qgzeq3ispks3yelmabkm.png",
         "https://res.cloudinary.com/durstxroh/image/upload/v1738266775/khoy1rztqttzlgu457al.png",
         "https://res.cloudinary.com/durstxroh/image/upload/v1738266833/me5wchetfviuhzvix3jc.png",
       ],

@@ -13,7 +13,7 @@ const MouseEnterContext = createContext(undefined);
 export const CardContainer = ({
   children,
   className,
-  containerClassName="w-[350px] h-[350px]"
+  containerClassName="w-[340px] h-[530px]"
 }) => {
   const containerRef = useRef(null);
   const [isMouseEntered, setIsMouseEntered] = useState(false);

@@ -5,6 +5,7 @@ import Header from "./components/Header.jsx";
 import Projects from "./components/Projects.jsx";
 import Services from "./components/Services.jsx";
 import Skills from "./components/Skills.jsx";
+import Testimonials from "./components/Testimonials.jsx";
 import { ModalProvider } from "./components/ui/animated-modal.jsx";
 import data from "./lib/data.js";
 
@@ -26,6 +27,9 @@ export default function Home() {
         </div>
         <div className="dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
           <Projects />
+        </div>
+        <div className="dark:bg-grid-white/[0.2] bg-grid-black/[0.2]">
+          <Testimonials />
         </div>
       </ModalProvider>
     </>

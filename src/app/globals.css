@@ -26,7 +26,9 @@ body {
 /* ::-webkit-scrollbar{
   display: none;
 } */
-
+.scrollHide::-webkit-scrollbar{
+  display: none;
+}
 /* skill cards animation */
 @keyframes scrollLeft {
   0% {

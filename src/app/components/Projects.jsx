@@ -91,13 +91,13 @@ export default function Projects() {
                     </CardItem>
                   </Link>
                   <ModalTrigger>
-                    <CardItem
+                    <div
                       translateZ={20}
                       as="button"
                       className="flex items-center gap-2 px-7 py-2 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                     >
                       Read More <CgMoreO />
-                    </CardItem>
+                    </div>
                   </ModalTrigger>
                 </div>
               </CardBody>
@@ -256,13 +256,13 @@ export default function Projects() {
                     </CardItem>
                   </Link>
                   <ModalTrigger>
-                    <CardItem
+                    <div
                       translateZ={20}
                       as="button"
                       className="flex items-center gap-2 px-7 py-2 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                     >
                       Read More <CgMoreO />
-                    </CardItem>
+                    </div>
                   </ModalTrigger>
                 </div>
               </CardBody>
@@ -425,13 +425,13 @@ export default function Projects() {
                     </CardItem>
                   </Link>
                   <ModalTrigger>
-                    <CardItem
+                    <div
                       translateZ={20}
                       as="button"
                       className="flex items-center gap-2 px-7 py-2 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                     >
                       Read More <CgMoreO />
-                    </CardItem>
+                    </div>
                   </ModalTrigger>
                 </div>
               </CardBody>

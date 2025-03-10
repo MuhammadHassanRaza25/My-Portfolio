@@ -2,25 +2,30 @@ import { MotionUp } from "./ui/motion-up";
 import { InfiniteMovingCards2 } from "./ui/infinite-moving-cards";
 
 export default function Testimonials() {
-
   const testimonialsData = [
     {
       quote:
-        "It was the best it was the age of wisdom, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
+        "Muhammad Hassan Raza brought my vision to life with a stunning, professional portfolio website. It highlights my skills as a Graphic Designer & Video Editor and elevates my brand in an impactful way.",
       name: "Muhammad Obaid Raza",
       title: "Graphic Designer & Video Editor",
     },
     {
       quote:
-        "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
+        "Muhammad Hassan Raza's exceptional problem-solving mindset and keen attention to detail ensure every challenge is met with the most efficient and effective solutions.",
       name: "AfaqDev",
       title: "Full Stack Developer",
     },
     {
       quote:
-        "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-      name: "Muhammad Bilal",
+        "Consistently delivering high-performance full-stack solutions, Muhammad Hassan Raza combines deep technical expertise with innovative problem-solving to ensure seamless, efficient development.",
+      name: "Muhammad Ahmed",
       title: "Full Stack Developer",
+    },
+    {
+      quote:
+        "Muahmmad Hassan Raza is a true expert in building top-tier Full Stack solutions, delivering innovative and highly efficient results. His unmatched speed and precision ensure exceptional outcomes every time.",
+      name: "Bilal Ahmed",
+      title: "Software Engineer",
     },
   ];
 

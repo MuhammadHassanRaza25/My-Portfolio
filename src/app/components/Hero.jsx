@@ -20,7 +20,7 @@ export default function Hero({ data }) {
       /> */}
 
       <div className="container flex lg:flex-row flex-col lg:pt-0 pt-20 items-center justify-evenly min-h-[570px]">
-        <div className="flex flex-col lg:gap-6 gap-5 px-5 lg:z-0 -z-50">
+        <div className="flex flex-col lg:gap-6 gap-4 px-5 lg:z-0 -z-50">
           <MotionUp delay={0}>
             <h1 className="text-black font-extrabold lg:text-4xl text-2xl">
               Hi, I'm Muhammad Hassan Raza

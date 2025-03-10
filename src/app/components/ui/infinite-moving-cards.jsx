@@ -206,7 +206,7 @@ export const InfiniteMovingCards2 = ({
       >
         {items.map((item, idx) => (
           <li
-            className="w-[350px] transition duration-200 hover:scale-[1.03] hover:-translate-y-0.5 max-w-full relative rounded-2xl border border-b-0 shrink-0 border-slate-700 px-8 py-6 md:w-[450px]"
+            className="lg:w-[350px] transition duration-200 hover:scale-[1.03] hover:-translate-y-0.5 max-w-full relative rounded-2xl border border-b-0 shrink-0 border-slate-700 px-8 py-6 md:w-[450px] w-[400px]"
             style={{
               background:
                 "linear-gradient(180deg, var(--slate-800), var(--slate-900))",

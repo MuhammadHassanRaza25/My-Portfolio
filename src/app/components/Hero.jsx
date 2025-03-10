@@ -78,7 +78,7 @@ export default function Hero({ data }) {
         </div>
 
         <MotionUp delay={0.3}>
-          <div className="lg:mt-0 mt-10">
+          <div className="lg:mt-0 mt-10 lg:px-0 md:px-0 px-5">
             <Image
               className="rounded-lg"
               width={340}

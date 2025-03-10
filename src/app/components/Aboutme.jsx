@@ -21,7 +21,7 @@ export default function Aboutme({ data }) {
 
       <div className="container flex lg:flex-row flex-col items-center justify-evenly min-h-[500px]">
         <MotionUp delay={0}>
-          <div className="lg:mt-0 mt-10">
+          <div className="lg:mt-0 mt-10 lg:px-0 md:px-0 px-5">
             <Image
               className="rounded-lg"
               width={340}

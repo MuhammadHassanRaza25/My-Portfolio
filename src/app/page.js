@@ -32,7 +32,7 @@ export default function Home() {
         <div className="dark:bg-grid-white/[0.2] bg-grid-black/[0.2]">
           <Testimonials />
         </div>
-        <div className="bg-gray-50">
+        <div className="contactBg">
           <Contact/>
         </div>
       </ModalProvider>

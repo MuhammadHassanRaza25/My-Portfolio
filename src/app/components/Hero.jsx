@@ -6,13 +6,14 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { PiDownloadSimpleBold } from "react-icons/pi";
 import scrollicon from "../assets/images/scrollicon.gif";
 import myimage from "../assets/images/myimage.jpg";
+import Link from "next/link";
 
 export default function Hero({ data }) {
   const words = [data.position1, data.position2];
 
   return (
     <>
-      <div className="container flex lg:flex-row flex-col lg:pt-0 pt-20 items-center justify-evenly min-h-[525px]">
+      <div className="container flex lg:flex-row flex-col lg:pt-0 pt-16 items-center justify-evenly min-h-[525px]">
         <div className="flex flex-col lg:gap-6 gap-4 px-5 lg:z-0 -z-50">
           <MotionUp delay={0}>
             <h1 className="text-black font-extrabold lg:text-4xl text-2xl">
@@ -48,9 +49,11 @@ export default function Hero({ data }) {
 
           <MotionUp delay={0.7}>
             <div className="flex gap-5">
-              <button className="shadow-black hover:shadow-md animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-10 px-5 py-2 lg:text-xl sm:text-base rounded-md">
-                Say Hi <FaLocationArrow />
-              </button>
+              <Link href={"#contact"}>
+                 <button className="shadow-black hover:shadow-md animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-10 px-5 py-2 lg:text-xl sm:text-base rounded-md">
+                   Say Hello <FaLocationArrow />
+                 </button>
+              </Link>
               <button className="shadow-black hover:shadow-md animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center gap-2 text-white font-semibold lg:px-10 px-5 py-2 lg:text-xl sm:text-base rounded-md">
                 Resume <PiDownloadSimpleBold />
               </button>

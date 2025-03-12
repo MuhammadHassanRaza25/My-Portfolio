@@ -1,5 +1,6 @@
 import Hero from "../app/components/Hero.jsx";
 import Aboutme from "./components/Aboutme.jsx";
+import Contact from "./components/Contact.jsx";
 import Education from "./components/Education.jsx";
 import Header from "./components/Header.jsx";
 import Projects from "./components/Projects.jsx";
@@ -30,6 +31,9 @@ export default function Home() {
         </div>
         <div className="dark:bg-grid-white/[0.2] bg-grid-black/[0.2]">
           <Testimonials />
+        </div>
+        <div className="bg-gray-50">
+          <Contact/>
         </div>
       </ModalProvider>
     </>

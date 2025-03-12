@@ -1,5 +1,4 @@
 import { Highlight } from "./ui/hero-highlight";
-// import { Spotlight } from "./ui/Spotlight";
 import { MotionUp } from "./ui/motion-up";
 import { FlipWords } from "./ui/flip-words";
 import Image from "next/image";
@@ -13,13 +12,7 @@ export default function Hero({ data }) {
 
   return (
     <>
-      {/* <Spotlight
-        id="home"
-        className="z-50 lg:left-80 left-10 lg:top-28 lg:h-[90vh] h-[100vh] w-[50vw]"
-        fill="lightblue"
-      /> */}
-
-      <div className="container flex lg:flex-row flex-col lg:pt-0 pt-20 items-center justify-evenly min-h-[520px]">
+      <div className="container flex lg:flex-row flex-col lg:pt-0 pt-20 items-center justify-evenly min-h-[525px]">
         <div className="flex flex-col lg:gap-6 gap-4 px-5 lg:z-0 -z-50">
           <MotionUp delay={0}>
             <h1 className="text-black font-extrabold lg:text-4xl text-2xl">

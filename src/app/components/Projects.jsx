@@ -30,7 +30,10 @@ import { FaGithub } from "react-icons/fa6";
 export default function Projects() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center lg:pt-24 pt-24 lg:mb-0 mb-7">
+      <div
+        id="projects"
+        className="flex flex-col items-center justify-center lg:pt-24 pt-24 lg:mb-0 mb-7"
+      >
         <MotionUp delay={0}>
           <h1 className="text-black font-bold lg:text-4xl text-2xl text-center">
             Project Overview{" "}
@@ -43,10 +46,7 @@ export default function Projects() {
         </MotionUp>
       </div>
 
-      <div
-        id="projects"
-        className="container pb-20 flex lg:px-14 px-5 mt-8 lg:flex-row flex-col items-center justify-evenly min-h-[500px]"
-      >
+      <div className="container pb-20 flex lg:px-14 px-5 mt-8 lg:flex-row flex-col items-center justify-evenly min-h-[500px]">
         {/* Card 1 */}
         <Modal>
           <MotionUp delay={0.1}>

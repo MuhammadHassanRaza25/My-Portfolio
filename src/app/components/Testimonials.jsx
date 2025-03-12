@@ -44,7 +44,7 @@ export default function Testimonials() {
         </MotionUp>
       </div>
 
-      <div className="container flex items-center justify-center lg:mt-0 lg:px-0 px-5 mt-8 min-h-[350px]">
+      <div className="container flex items-center justify-center lg:mt-0 lg:px-0 px-5 mt-8 min-h-[340px]">
         <MotionUp delay={0.1}>
           <InfiniteMovingCards2
             items={testimonialsData}

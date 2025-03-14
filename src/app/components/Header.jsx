@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="containerHeader flex justify-between p-5 z-50 bg-white">
+      <div id="home" className="containerHeader flex justify-between p-5 z-50 bg-white">
         <div>
           <h1 className="font-semibold text-lg">Muhammad Hassan Raza</h1>
         </div>

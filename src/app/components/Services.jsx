@@ -26,11 +26,10 @@ export default function Services() {
               <span className="flex justify-center items-center rounded-full w-[60px] p-3 bg-black text-white">
                 <HiOutlineDesktopComputer className="text-4xl" />
               </span>
-              Web Development
+              Web Application
             </p>
             <p className="px-5">
-              I specialize in developing scalable, responsive web applications
-              that deliver an exceptional user experience.
+               I specialize in creating responsive web apps using Modern tools like MERN stack and Next.js, ensuring smooth user experience.
             </p>
           </div>
         </MotionUp>
@@ -41,7 +40,7 @@ export default function Services() {
               <span className="flex justify-center items-center rounded-full w-[60px] p-3 bg-black text-white">
                 <HiMiniDevicePhoneMobile className="text-4xl" />
               </span>
-              Mobile App Development
+              Mobile Application
             </p>
             <p className="px-5">
               I specialize in creating mobile apps that are fully responsive
@@ -56,7 +55,7 @@ export default function Services() {
               <span className="flex justify-center items-center rounded-full w-[60px] p-3 bg-black text-white">
                 <LuSettings className="text-4xl" />
               </span>
-              Back End Development
+              Backend Development
             </p>
             <p className="px-5">
               I focus on developing backend functionalities that ensure optimal

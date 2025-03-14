@@ -31,7 +31,7 @@ export default function Testimonials() {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center lg:pt-24 pt-24 lg:mb-0 mb-7">
+      <div id="testimonial" className="flex flex-col items-center justify-center lg:pt-24 pt-24 lg:mb-0 mb-7">
         <MotionUp delay={0}>
           <h1 className="text-black font-bold lg:text-4xl text-2xl text-center">
             Testimonials{" "}

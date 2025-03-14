@@ -2,6 +2,7 @@ import Hero from "../app/components/Hero.jsx";
 import Aboutme from "./components/Aboutme.jsx";
 import Contact from "./components/Contact.jsx";
 import Education from "./components/Education.jsx";
+import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
 import Projects from "./components/Projects.jsx";
 import Services from "./components/Services.jsx";
@@ -34,6 +35,9 @@ export default function Home() {
         </div>
         <div className="contactBg">
           <Contact/>
+        </div>
+        <div>
+            <Footer/>
         </div>
       </ModalProvider>
     </>

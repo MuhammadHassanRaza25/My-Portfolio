@@ -22,7 +22,7 @@ export default function Contact() {
       </div>
 
       <div className="container pb-14 flex lg:flex-row flex-col lg:gap-8 gap-0 lg:mt-0 lg:px-20 px-5 mt-8 lg:justify-start justify-center lg:items-start items-center">
-        <form className="bg-white border lg:mt-16 mt-6 lg:mb-12 mb-0 p-8 rounded-lg flex flex-col gap-1 justify-center lg:w-[650px] md:w-[650px] w-full">
+        <form className="bg-white border border-gray-300 lg:mt-16 mt-6 lg:mb-12 mb-0 p-8 rounded-lg flex flex-col gap-1 justify-center lg:w-[650px] md:w-[650px] w-full">
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
             <LabelInputContainer>
               <Label htmlFor="Name">Name</Label>
@@ -71,7 +71,7 @@ export default function Contact() {
         </form>
 
         <div className="flex flex-col justify-start gap-5 lg:w-[390px] md:w-[650px] w-full mt-16 mb-16">
-          <div className="flex gap-5 justify-start items-center bg-white border rounded-lg py-4 pl-7">
+          <div className="flex gap-5 justify-start items-center bg-white border border-gray-300 rounded-lg py-4 pl-7">
             <span className="bg-black text-white text-xl rounded-full p-2">
               <FaLocationDot />
             </span>
@@ -81,7 +81,7 @@ export default function Contact() {
             </h1>
           </div>
 
-          <div className="flex gap-5 justify-start items-center bg-white border rounded-lg py-4 pl-7">
+          <div className="flex gap-5 justify-start items-center bg-white border border-gray-300 rounded-lg py-4 pl-7">
             <span className="bg-black text-white text-xl rounded-full p-2">
               <IoCallSharp />
             </span>
@@ -90,7 +90,7 @@ export default function Contact() {
             </h1>
           </div>
 
-          <div className="flex gap-5 justify-start items-center bg-white border rounded-lg py-4 pl-7">
+          <div className="flex gap-5 justify-start items-center bg-white border border-gray-300 rounded-lg py-4 pl-7">
             <span className="bg-black text-white text-xl rounded-full p-2">
               <MdEmail />
             </span>

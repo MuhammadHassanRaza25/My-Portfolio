@@ -2,6 +2,12 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { HiHome } from "react-icons/hi2";
+import { FaUser } from "react-icons/fa";
+import { BsTools } from "react-icons/bs";
+import { FaGlobe } from "react-icons/fa6";
+import { FaImage } from "react-icons/fa6";
+import { PiPhoneCallFill } from "react-icons/pi";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -70,24 +76,24 @@ export default function Header() {
 
         {/* Mobile screen Links */}
         {isOpen && (
-          <div className="flex flex-col items-start gap-5 pl-7 justify-center lg:hidden absolute top-16 left-0 w-full bg-white shadow-lg">
+          <div className="flex flex-col items-start gap-5 pl-6 justify-center lg:hidden absolute top-16 left-0 w-full bg-white shadow-lg">
             <Link href={"#home"} className="font-semibold hover:text-blue-700">
-              <p>Home</p>
+              <p className="flex items-center gap-3"><HiHome/> Home</p>
             </Link>
             <Link href={"#about"} className="font-semibold hover:text-blue-700">
-              <p>About</p>
+              <p className="flex items-center gap-3"><FaUser /> About</p>
             </Link>
             <Link href={"#skills"} className="font-semibold hover:text-blue-700">
-              <p>Skills</p>
+              <p className="flex items-center gap-3"><BsTools/> Skills</p>
             </Link>
             <Link href={"#services"} className="font-semibold hover:text-blue-700">
-              <p>Services</p>
+              <p className="flex items-center gap-3"><FaGlobe/> Services</p>
             </Link>
             <Link href={"#projects"} className="font-semibold hover:text-blue-700">
-              <p>Projects</p>
+              <p className="flex items-center gap-3"><FaImage/> Projects</p>
             </Link>
             <Link href={"#contact"} className="font-semibold hover:text-blue-700 mb-3">
-              <p>Contact</p>
+              <p className="flex items-center gap-2.5"><PiPhoneCallFill className="text-lg"/> Contact</p>
             </Link>
           </div>
         )}

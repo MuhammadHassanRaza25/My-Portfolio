@@ -33,11 +33,11 @@ export default function Home() {
         <div className="dark:bg-grid-white/[0.2] bg-grid-black/[0.2]">
           <Testimonials />
         </div>
-        <div className="contactBg">
-          <Contact/>
+        <div className="dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
+          <Contact />
         </div>
         <div>
-            <Footer/>
+          <Footer />
         </div>
       </ModalProvider>
     </>

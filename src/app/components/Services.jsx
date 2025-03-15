@@ -29,7 +29,7 @@ export default function Services() {
               Web Application
             </p>
             <p className="px-5">
-               I specialize in creating responsive web apps using Modern tools like MERN stack and Next.js, ensuring smooth user experience.
+               I specialize in creating responsive web apps using modern tools like MERN stack and Next.js, ensuring smooth user experience.
             </p>
           </div>
         </MotionUp>
@@ -43,8 +43,7 @@ export default function Services() {
               Mobile Application
             </p>
             <p className="px-5">
-              I specialize in creating mobile apps that are fully responsive
-              across all devices, delivering a seamless user experience.
+               I specialize in crafting highly responsive mobile apps using React Native, delivering a flawless user experience across all devices.
             </p>
           </div>
         </MotionUp>

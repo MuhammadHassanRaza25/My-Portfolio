@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
 
@@ -25,16 +28,16 @@ export default function Footer() {
           <Link href={"#contact"} className="text-base font-semibold hover:text-blue-700"><p>Contact</p></Link>
         </div>
 
-        <div className="mt-9 flex gap-7 justify-center">
-          <p>github</p>
-          <p>github</p>
-          <p>github</p>
+        <div className="mt-6 flex gap-3 justify-center">
+          <Link href={'https://github.com/MuhammadHassanRaza25'} target="_blank"><p className="text-2xl bg-black text-white rounded-full p-2.5"><FaGithub/></p></Link>
+          <Link href={'https://www.linkedin.com/in/muhammad-hassan-raza-aab5402b7/'} target="_blank"><p className="text-2xl bg-black hover:bg-blue-500 text-white rounded-full p-2.5"><FaLinkedinIn/></p></Link>
+          <Link href={'mailto:hassanejaz773@gmail.com'}><p className="text-2xl bg-black hover:bg-red-500 text-white rounded-full p-2.5"><MdEmail/></p></Link>
         </div>
 
         <div className="mt-9">
-          <h1 className="text-center lg:text-base md:text-base text-xs font-medium text-gray-900">
+          <p className="text-center lg:text-base md:text-base text-xs font-semibold text-gray-900">
              © {currentYear} Muhammad Hasssan Raza. All rights reserved.
-          </h1>
+          </p>
         </div>
 
       </div>

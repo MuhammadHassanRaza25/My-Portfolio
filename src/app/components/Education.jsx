@@ -6,7 +6,7 @@ export default function Education() {
   
   const data = [
     {
-      title: "December 2023 - July 2024",
+      title: "January 2024 - April 2024",
       content: (
         <div className="flex flex-col gap-5 lg:w-[430px] lg:h-auto bg-gray-50 rounded-lg border-b-2 border-blue-700 pb-5 pt-5 px-3">
           <p className="text-gray-800 px-5 flex flex-col lg:text-2xl md:text-xl font-bold dark:text-neutral-200">
@@ -16,8 +16,7 @@ export default function Education() {
             </span>
           </p>
           <ul className="list-disc text-sm space-y-2 lg:px-9 pl-9 pr-2 text-gray-800 font-semibold">
-            <li>Learned about basic technologies of Web development.</li>
-            <li>Studied HTML CSS, JavaScript and Firebase.</li>
+            <li>Studied HTML, CSS, Tailwind CSS, JavaScript and Firebase.</li>
             <li>I'm group leader of my Batch in Front End Development.</li>
             <li>
               Developed Blogging Website as a Final Project using HTML, CSS, JS and
@@ -28,7 +27,7 @@ export default function Education() {
       ),
     },
     {
-      title: "July 2024 - November 2024",
+      title: "April 2024 - September 2024",
       content: (
         <div className="flex flex-col gap-5 lg:w-[430px] lg:h-auto bg-gray-50 rounded-lg border-b-2 border-blue-700 pb-5 pt-5 px-3">
           <p className="text-gray-800 px-5 flex flex-col lg:text-2xl md:text-xl font-bold dark:text-neutral-200">
@@ -51,7 +50,7 @@ export default function Education() {
       ),
     },
     {
-      title: "November 2024 - January 2025",
+      title: "September 2024 - October 2024",
       content: (
         <div className="flex flex-col gap-5 lg:w-[430px] lg:h-auto bg-gray-50 rounded-lg border-b-2 border-blue-700 pb-5 pt-5 px-3">
           <p className="text-gray-800 px-5 flex flex-col lg:text-2xl md:text-xl font-bold dark:text-neutral-200">

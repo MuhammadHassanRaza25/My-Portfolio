@@ -63,7 +63,7 @@ export default function Contact() {
           </LabelInputContainer>
 
           <button
-            className="shadow-black mt-3 hover:shadow-md animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center justify-center gap-2 text-white font-semibold lg:px-10 px-2 py-2 lg:w-60 w-full lg:text-lg sm:text-base rounded-md"
+            className="shadow-black mt-3 hover:shadow-md animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center justify-center gap-3 hover:gap-4 transition-all text-white font-semibold lg:px-10 px-2 py-2 lg:w-60 w-full lg:text-lg sm:text-base rounded-md"
             type="submit"
           >
             Send Message <IoMdSend className="text-xl" />

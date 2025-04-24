@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { MotionUp } from "./ui/motion-up";
-import myimage from "../assets/images/myimage.jpg";
+import mypicture from "../assets/images/mypicture.png";
 
 export default function Aboutme({ data }) {
   return (
@@ -21,12 +21,12 @@ export default function Aboutme({ data }) {
 
       <div className="container flex lg:flex-row flex-col items-center justify-evenly min-h-[440px]">
         <MotionUp delay={0}>
-          <div className="lg:mt-0 mt-10 lg:px-0 md:px-0 px-5">
+          <div className="lg:mt-1 mt-10 lg:px-0 md:px-0 px-5">
             <Image
               className="rounded-lg"
-              width={340}
-              height={340}
-              src={myimage}
+              width={310}
+              height={310}
+              src={mypicture}
               alt="about image"
             ></Image>
           </div>

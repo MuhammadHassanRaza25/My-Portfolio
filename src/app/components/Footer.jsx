@@ -18,7 +18,7 @@ export default function Footer() {
           </h1>
         </div>
 
-        <div className="flex flex-wrap lg:px-0 md:px-0 px-5 items-center justify-center mt-5 gap-5">
+        <div className="mb-6 flex flex-wrap lg:px-0 md:px-0 px-5 items-center justify-center mt-5 gap-5">
           <Link href={"#home"} className="text-base font-semibold hover:text-blue-700"><p>Home</p></Link>
           <Link href={"#about"} className="text-base font-semibold hover:text-blue-700"><p>About</p></Link>
           <Link href={"#skills"} className="text-base font-semibold hover:text-blue-700"><p>Skills</p></Link>
@@ -28,16 +28,20 @@ export default function Footer() {
           <Link href={"#contact"} className="text-base font-semibold hover:text-blue-700"><p>Contact</p></Link>
         </div>
 
-        <div className="mt-6 flex gap-3 justify-center">
-          <Link href={'https://github.com/MuhammadHassanRaza25'} target="_blank"><p className="text-2xl bg-black text-white rounded-full p-2.5"><FaGithub/></p></Link>
-          <Link href={'https://www.linkedin.com/in/muhammad-hassan-raza-aab5402b7/'} target="_blank"><p className="text-2xl bg-black hover:bg-blue-500 text-white rounded-full p-2.5"><FaLinkedinIn/></p></Link>
-          <Link href={'mailto:hassanejaz773@gmail.com'}><p className="text-2xl bg-black hover:bg-red-500 text-white rounded-full p-2.5"><MdEmail/></p></Link>
-        </div>
+          <hr />
 
-        <div className="mt-9">
-          <p className="text-center lg:text-base md:text-base text-xs font-semibold text-gray-900">
-             © {currentYear} Muhammad Hasssan Raza. All rights reserved.
-          </p>
+        <div className="mt-6 flex items-center justify-between">
+           <div className="flex gap-4 justify-center">
+             <Link href={'https://github.com/MuhammadHassanRaza25'} target="_blank"><p className="text-lg text-black"><FaGithub/></p></Link>
+             <Link href={'https://www.linkedin.com/in/muhammad-hassan-raza-aab5402b7/'} target="_blank"><p className="text-lg text-black hover:text-blue-600"><FaLinkedinIn/></p></Link>
+             <Link href={'mailto:hassanejaz773@gmail.com'}><p className="text-lg text-black hover:text-red-600"><MdEmail/></p></Link>
+           </div>
+
+           <div>
+             <p className="text-center lg:text-sm md:text-sm text-xs font-semibold text-gray-700">
+                © {currentYear} Muhammad Hasssan Raza. All rights reserved.
+             </p>
+           </div>
         </div>
 
       </div>

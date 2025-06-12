@@ -30,17 +30,17 @@ export default function Footer() {
 
           <hr />
 
-        <div className="mt-6 flex items-center justify-between">
-           <div className="flex gap-4 justify-center">
-             <Link href={'https://github.com/MuhammadHassanRaza25'} target="_blank"><p className="text-lg text-black"><FaGithub/></p></Link>
-             <Link href={'https://www.linkedin.com/in/muhammad-hassan-raza-aab5402b7/'} target="_blank"><p className="text-lg text-black hover:text-blue-600"><FaLinkedinIn/></p></Link>
-             <Link href={'mailto:hassanejaz773@gmail.com'}><p className="text-lg text-black hover:text-red-600"><MdEmail/></p></Link>
-           </div>
-
+        <div className="mt-6 flex lg:flex-row flex-col lg:gap-0 gap-5 items-center justify-between">
            <div>
              <p className="text-center lg:text-sm md:text-sm text-xs font-semibold text-gray-700">
                 © {currentYear} Muhammad Hasssan Raza. All rights reserved.
              </p>
+           </div>
+           
+           <div className="flex gap-4 justify-center">
+             <Link href={'https://github.com/MuhammadHassanRaza25'} target="_blank"><p className="text-lg text-black"><FaGithub/></p></Link>
+             <Link href={'https://www.linkedin.com/in/muhammad-hassan-raza-aab5402b7/'} target="_blank"><p className="text-lg text-black hover:text-blue-600"><FaLinkedinIn/></p></Link>
+             <Link href={'mailto:hassanejaz773@gmail.com'}><p className="text-lg text-black hover:text-red-600"><MdEmail/></p></Link>
            </div>
         </div>
 

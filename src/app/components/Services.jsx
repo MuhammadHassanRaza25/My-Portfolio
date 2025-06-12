@@ -21,12 +21,12 @@ export default function Services() {
 
       <div className="container servicesCardDiv lg:pb-10 pb-20 lg:mt-0 lg:px-10 px-5 mt-8 flex items-center justify-evenly min-h-[430px]">
         <MotionUp delay={0.1}>
-          <div className="serviceCard shadow transition duration-200 hover:scale-[1.03] hover:-translate-y-1 flex flex-col justify-center gap-5 lg:w-[330px] lg:h-[280px] bg-white rounded-lg border px-3">
+          <div className="serviceCard shadow transition duration-200 hover:scale-[1.03] hover:-translate-y-1 flex flex-col justify-center gap-5 lg:w-[330px] lg:h-[280px] bg-white rounded-lg border border-gray-300 px-3">
             <p className="text-gray-800 px-5 flex flex-col gap-3 lg:text-xl md:text-xl font-semibold dark:text-neutral-200">
               <span className="flex justify-center items-center rounded-full w-[60px] p-3 bg-black text-white">
                 <HiOutlineDesktopComputer className="text-4xl" />
               </span>
-              Web Application
+              Web Development
             </p>
             <p className="px-5">
                I specialize in creating responsive web apps using modern tools like MERN stack and Next.js, ensuring smooth user experience.
@@ -35,12 +35,12 @@ export default function Services() {
         </MotionUp>
 
         <MotionUp delay={0.2}>
-          <div className="serviceCard shadow transition duration-200 hover:scale-[1.03] hover:-translate-y-1 flex flex-col justify-center gap-5 lg:w-[330px] lg:h-[280px] bg-white rounded-lg border px-3">
+          <div className="serviceCard shadow transition duration-200 hover:scale-[1.03] hover:-translate-y-1 flex flex-col justify-center gap-5 lg:w-[330px] lg:h-[280px] bg-white rounded-lg border border-gray-300 px-3">
             <p className="text-gray-800 px-5 flex flex-col gap-3 lg:text-xl md:text-xl font-semibold dark:text-neutral-200">
               <span className="flex justify-center items-center rounded-full w-[60px] p-3 bg-black text-white">
                 <HiMiniDevicePhoneMobile className="text-4xl" />
               </span>
-              Mobile Application
+              Mobile App Development
             </p>
             <p className="px-5">
                I specialize in crafting highly responsive mobile apps using React Native, delivering a flawless user experience across all devices.
@@ -49,7 +49,7 @@ export default function Services() {
         </MotionUp>
 
         <MotionUp delay={0.3}>
-          <div className="serviceCard shadow transition duration-200 hover:scale-[1.03] hover:-translate-y-1 flex flex-col justify-center gap-5 lg:w-[330px] lg:h-[280px] bg-white rounded-lg border px-3">
+          <div className="serviceCard shadow transition duration-200 hover:scale-[1.03] hover:-translate-y-1 flex flex-col justify-center gap-5 lg:w-[330px] lg:h-[280px] bg-white rounded-lg border border-gray-300 px-3">
             <p className="text-gray-800 px-5 flex flex-col gap-3 lg:text-xl md:text-xl font-semibold dark:text-neutral-200">
               <span className="flex justify-center items-center rounded-full w-[60px] p-3 bg-black text-white">
                 <LuSettings className="text-4xl" />

@@ -10,7 +10,7 @@ let data = {
     profileImage:
       "https://avatars.githubusercontent.com/u/153998754?v=4",
     description:
-      "Hello, I’m Muhammad Hassan Raza, a Full Stack Developer with a deep passion for building innovative, scalable web and mobile applications. My journey in the tech world started at an early age, and over the years, I’ve gained proficiency in technologies such as JavaScript, React.js, Node.js, MongoDB, and React Native. I thrive on overcoming challenges and am always eager to learn new skills to stay at the forefront of an ever-changing tech landscape. My focus is on creating user-centric, high-quality software that not only meets but exceeds expectations, delivering solutions that drive business growth.",
+      "Hello, I’m Muhammad Hassan Raza, a Full Stack Developer with a deep passion for building innovative, scalable web and mobile applications. My journey in the tech world started at an early age, and over the years, I’ve gained proficiency in technologies such as JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB and React Native. I thrive on overcoming challenges and am always eager to learn new skills to stay at the forefront of an ever-changing tech landscape. My focus is on creating user-centric, high-quality software that not only meets but exceeds expectations, delivering solutions that drive business growth.",
   },
   socialLinks: [
     {

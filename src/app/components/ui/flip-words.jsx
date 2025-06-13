@@ -65,7 +65,7 @@ export const FlipWords = ({
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{
               delay: wordIndex * 0.3,
-              duration: 0.3,
+              duration: 0.5,
             }}
             className="inline-block whitespace-nowrap">
             {word.split("").map((letter, letterIndex) => (

@@ -81,10 +81,9 @@ export default function Projects() {
                   translateZ="60"
                   className="text-neutral-700 h-[80px] text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  Hover over this card to unleash the power of CSS perspective
-                  Hover over this card to unleash the power of CSS perspective
-                  Hover over this card to unleash the power of CSS
-                  perspective...
+                  This Learning Management System is designed to streamline the
+                  management and delivery of educational content, offering three
+                  distinct user flows: Admin, Teacher, and Student. Admins .....
                 </CardItem>
                 <div className="flex justify-between items-center gap-5 mt-5">
                   <Link

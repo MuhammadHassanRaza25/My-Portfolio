@@ -76,7 +76,7 @@ export default function Header() {
 
         {/* Mobile screen Links */}
         {isOpen && (
-          <div className="flex flex-col items-start gap-5 pl-6 justify-center lg:hidden absolute top-16 left-0 w-full bg-white shadow-lg">
+          <div className="flex z-50 flex-col items-start gap-5 pl-6 justify-center lg:hidden absolute top-16 left-0 w-full bg-white shadow-lg">
             <Link href={"#home"} className="font-semibold hover:text-blue-700">
               <p className="flex items-center gap-3"><HiHome/> Home</p>
             </Link>

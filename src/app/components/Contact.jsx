@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import { cn } from "@/app/lib/utils";
@@ -7,8 +7,36 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoCallSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { IoMdSend } from "react-icons/io";
+import toast from "react-hot-toast";
 
 export default function Contact() {
+
+  const [loader, setLoader] = useState(false);
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setLoader(true)
+
+    const formData = new FormData(event.target);
+    formData.append("access_key", "f305e195-a3c6-4fac-b7da-0ed612b0a3cc");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+    const data = await response.json();
+
+    if (data.success) {
+      setLoader(false)
+      console.log("Form Submitted Successfully");
+      toast.success("Form submitted successfully!");
+      event.target.reset();
+    } else {
+      console.log("Error");
+      toast.error("Something went wrong!");
+    }
+  };
+
   return (
     <>
       <div
@@ -22,8 +50,7 @@ export default function Contact() {
       </div>
 
       <div className="container pb-14 flex lg:flex-row flex-col lg:gap-8 gap-0 lg:mt-0 lg:px-20 px-5 mt-8 lg:justify-start justify-center lg:items-start items-center">
-        <form className="bg-white border border-gray-300 lg:mt-16 mt-6 lg:mb-12 mb-0 p-8 rounded-lg flex flex-col gap-1 justify-center lg:w-[650px] md:w-[650px] w-full">
-          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
+        <form onSubmit={onSubmit} className="bg-white border border-gray-300 lg:mt-16 mt-6 lg:mb-12 mb-0 p-8 rounded-lg flex flex-col gap-5 justify-center lg:w-[650px] md:w-[650px] w-full">
             <LabelInputContainer>
               <Label htmlFor="Name">Name</Label>
               <Input
@@ -31,6 +58,8 @@ export default function Contact() {
                 id="Name"
                 placeholder="Enter your Name"
                 type="text"
+                name="name"
+                required
               />
             </LabelInputContainer>
             <LabelInputContainer>
@@ -39,19 +68,22 @@ export default function Contact() {
                 className="bg-white"
                 id="Email"
                 placeholder="Enter your Email"
-                type="text"
+                type="email"
+                name="email" 
+                required
               />
             </LabelInputContainer>
-          </div>
-          <LabelInputContainer className="mb-4">
+          {/* <LabelInputContainer className="mb-4">
             <Label htmlFor="subject">Subject</Label>
             <Input
               className="bg-white"
               id="subject"
               placeholder="Want to develop a website"
-              type="email"
+              type="text"
+              name="subject"
+              required
             />
-          </LabelInputContainer>
+          </LabelInputContainer> */}
           <LabelInputContainer className="mb-4">
             <Label htmlFor="message">Message</Label>
             <Input
@@ -59,15 +91,31 @@ export default function Contact() {
               id="message"
               placeholder="Your Message"
               type="textarea"
+              name="message"
+              required
             />
           </LabelInputContainer>
-
-          <button
-            className="shadow-black mt-3 hover:shadow-md animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center justify-center gap-3 hover:gap-4 transition-all text-white font-semibold lg:px-10 px-2 py-2 lg:w-60 w-full lg:text-lg sm:text-base rounded-md"
-            type="submit"
-          >
-            Send Message <IoMdSend className="text-xl" />
-          </button>
+          {
+            loader
+            ?(
+              <> 
+                 <button
+                   className="shadow-black hover:shadow-md animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center justify-center gap-3 hover:gap-4 transition-all text-white font-semibold lg:px-10 px-2 py-2 lg:w-60 w-full lg:text-lg sm:text-base rounded-md"
+                   type="submit"
+                 >
+                   <div className="loader"></div>
+                 </button>
+              </>
+            )
+            :(
+              <button
+                className="shadow-black hover:shadow-md animate-shimmer bg-[linear-gradient(110deg,#191919,45%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex items-center justify-center gap-3 hover:gap-4 transition-all text-white font-semibold lg:px-10 px-2 py-2 lg:w-60 w-full lg:text-lg sm:text-base rounded-md"
+                type="submit"
+              >
+                Send Message <IoMdSend className="text-xl" />
+              </button>
+            )
+          }
         </form>
 
         <div className="flex flex-col justify-start gap-5 lg:w-[390px] md:w-[650px] w-full mt-16 mb-16">

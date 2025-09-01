@@ -24,7 +24,7 @@ export default function Footer() {
           <Link href={"#skills"} className="text-base font-semibold hover:text-blue-700"><p>Skills</p></Link>
           <Link href={"#services"} className="text-base font-semibold hover:text-blue-700"><p>Services</p></Link>
           <Link href={"#projects"} className="text-base font-semibold hover:text-blue-700"><p>Projects</p></Link>
-          <Link href={"#testimonial"} className="text-base font-semibold hover:text-blue-700"><p>Testomonial</p></Link>
+          <Link href={"#testimonial"} className="text-base font-semibold hover:text-blue-700"><p>Testimonials</p></Link>
           <Link href={"#contact"} className="text-base font-semibold hover:text-blue-700"><p>Contact</p></Link>
         </div>
 
@@ -33,7 +33,7 @@ export default function Footer() {
         <div className="mt-6 flex lg:flex-row flex-col lg:gap-0 gap-5 items-center justify-between">
            <div>
              <p className="text-center lg:text-sm md:text-sm text-xs font-semibold text-gray-700">
-                © {currentYear} Muhammad Hasssan Raza. All rights reserved.
+                © {currentYear} Muhammad Hassan Raza. All rights reserved.
              </p>
            </div>
            

@@ -5,12 +5,12 @@ let data = {
     email: "hassanejaz773@gmail.com",
     address: "Karachi, Pakistan",
     position1: "Full Stack Developer",
-    position2: "Mobile App Developer",
-    resume: "https://indigo-joye-52.tiiny.site/",
+    position2: "MERN Stack Developer",
+    // resume: "",
     profileImage:
       "https://avatars.githubusercontent.com/u/153998754?v=4",
     description:
-      "Hello, I’m Muhammad Hassan Raza, a Full Stack Developer with a deep passion for building innovative, scalable web and mobile applications. My journey in the tech world started at an early age, and over the years, I’ve gained proficiency in technologies such as JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB and React Native. I thrive on overcoming challenges and am always eager to learn new skills to stay at the forefront of an ever-changing tech landscape. My focus is on creating user-centric, high-quality software that not only meets but exceeds expectations, delivering solutions that drive business growth.",
+      "Hello, I’m Muhammad Hassan Raza, a Full Stack Developer with a strong passion for building innovative and scalable web applications. My journey in tech started at an early age, and over the years, I’ve gained expertise in technologies such as JavaScript, TypeScript, React.js, Next.js, Firebase, Node.js, Express.js, and MongoDB. I thrive on solving complex challenges and am always eager to learn and grow in the ever-evolving tech landscape. My focus is on creating user-centric, high-quality software that not only meets but exceeds expectations, delivering solutions that drive real business growth.",
   },
   socialLinks: [
     {
@@ -116,82 +116,6 @@ let data = {
     {
       name: "MongoDB",
       image: "https://www.svgrepo.com/show/331488/mongodb.svg",
-    },
-  ],
-  projects: [
-    {
-      title: "Learning Management System",
-      description:
-        "An intuitive platform designed to streamline the management and delivery of educational content. This system facilitates seamless course creation, assignment submissions, and student-teacher interaction, making it easier for institutions to track progress, manage content, and enhance the learning experience.",
-      images: [
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738266615/qgzeq3ispks3yelmabkm.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738266775/khoy1rztqttzlgu457al.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738266833/me5wchetfviuhzvix3jc.png",
-      ],
-      techStack: [
-        "MongoDB",
-        "Express",
-        "ReactJS",
-        "Node.js",
-        "Tailwind CSS",
-        "Shadcn",
-      ],
-      liveUrl: "https://saylani-management-system.vercel.app/",
-      gitUrl:
-        "https://github.com/MuhammadHassanRaza25/Saylani-LMS",
-      priority: 1,
-    },
-    {
-      title: "E-Commerce website with admin dashboard",
-      description:
-        "An advanced real-time chat application developed using ReactJS and Firebase, designed for seamless one-on-one private conversations. This feature-packed app allows users to exchange text messages, share photos instantly, and engage in AI-powered conversations for an enhanced chat experience. With end-to-end encryption ensuring privacy, the platform offers a fast, secure, and interactive way to connect. Perfectly tailored for modern communication, it delivers innovation and reliability in every chat.",
-      images: [
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738328085/whatsapp_jhrxg1.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738328086/whatsapp2_hmhujq.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738328086/whatsapp3_alb9ji.png",
-      ],
-      techStack: ["JavaScript","Tailwind CSS", "React.js", "Firebase",],
-      liveUrl: "https://hassanonlinestore.vercel.app/",
-      gitUrl: "https://github.com/MuhammadHassanRaza25/E-commerce-Website-React",
-      priority: 2,
-    },
-    {
-      title:
-        "Quotes App",
-      description:
-        "An innovative e-commerce solution developed using ReactJS, Firebase, and Node.js, designed to deliver a seamless shopping experience. This platform features a powerful admin panel for effortless management of products, orders, user activities, locations, categories, and subcategories. Equipped with real-time tracking, the system ensures precise order management and operational efficiency. Its modern UI/UX, secure backend, and scalable architecture make it the perfect choice for businesses aiming to thrive in the digital marketplace.",
-      images: [
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738331715/ecommerce_xgx5fq.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738331714/ecommerce3_u5ziws.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738331714/adminpaenl_in0voe.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738331714/adminpanel3_lqjzz8.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738331714/ecommerce2_xadtmq.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738331727/ecommerce1_p3qjvo.png",
-      ],
-      techStack: ["JavaScript", "React.js", "Next.js", "Tailwind CSS" ],
-      liveUrl: "https://quotes-app-next-js.vercel.app/",
-      gitUrl:
-        "https://github.com/MuhammadHassanRaza25/Quotes-App-NextJS",
-      priority: 3,
-    },
-    {
-      title: "WebGlowing: Your Ultimate Developer Tool Hub",
-      description:
-        "WebGlowing.com is a collaborative project designed to empower developers and creators with a suite of powerful tools for seamless web development. From generating stunning box shadows and text shadows to crafting perfect border-radius styles, our platform simplifies your design process. Additional features include a QR code generator, text-to-speech functionality, and a CSS border generator, making WebGlowing your one-stop destination for boosting creativity and productivity. Explore, create, and glow with WebGlowing!",
-      images: [
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738332395/clpjk3hiym7xldinjvmm.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738332394/o0fozk32d1goq4tyfqja.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738332395/eppjtjvv0fqd2ui7vj1m.png",
-        "https://res.cloudinary.com/durstxroh/image/upload/v1738332398/ykrgo8e23iybznt8bivt.png",
-      ],
-      techStack: [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-      ],
-      liveUrl: "https://webglowing.com/",
-      gitUrl: "https://github.com/MuhammadHassanRaza25/Web-Glowing",
-      priority: 4,
     },
   ],
 };

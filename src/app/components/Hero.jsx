@@ -55,12 +55,12 @@ export default function Hero({ data }) {
           <MotionUp delay={0.7}>
             <div className="flex gap-5">
               <Link href={"#contact"}>
-                 <button className="shadow-black hover:shadow-lg animate-shimmer bg-[linear-gradient(110deg,#191919,40%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex hover:gap-3 transition-all items-center gap-2 text-white font-semibold lg:px-8 px-5 py-2 lg:text-xl sm:text-base rounded-md">
+                 <button className="shadow-black hover:shadow-lg animate-shimmer bg-[linear-gradient(110deg,#191919,40%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex hover:gap-3 transition-all items-center gap-2 text-white font-semibold lg:px-8 px-5 py-2 lg:text-xl sm:text-base rounded-lg">
                    Say Hello <FaLocationArrow />
                  </button>
               </Link>
               <Link href={"https://purple-aliza-13.tiiny.site/"} target="_blank">
-                 <button className="shadow-black hover:shadow-lg animate-shimmer bg-[linear-gradient(110deg,#191919,40%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex hover:gap-3 transition-all items-center gap-2 text-white font-semibold lg:px-8 px-5 py-2 lg:text-xl sm:text-base rounded-md">
+                 <button className="shadow-black hover:shadow-lg animate-shimmer bg-[linear-gradient(110deg,#191919,40%,#1e2631,55%,#191919)] bg-[length:200%_100%] cursor-pointer flex hover:gap-3 transition-all items-center gap-2 text-white font-semibold lg:px-8 px-5 py-2 lg:text-xl sm:text-base rounded-lg">
                    Resume <PiDownloadSimpleBold />
                  </button>
               </Link>

@@ -23,7 +23,7 @@ export default function Testimonials() {
     },
     {
       quote:
-        "Muahmmad Hassan Raza is a true expert in building top-tier Full Stack solutions, delivering innovative and highly efficient results. His unmatched speed and precision ensure exceptional outcomes every time.",
+        "Muhammad Hassan Raza is a true expert in building top-tier Full Stack solutions, delivering innovative and highly efficient results. His unmatched speed and precision ensure exceptional outcomes every time.",
       name: "Bilal Ahmed",
       title: "Software Engineer",
     },

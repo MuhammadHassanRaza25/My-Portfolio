@@ -46,7 +46,7 @@ export default function Contact() {
         <h1 className="text-black font-bold lg:text-4xl text-2xl text-center">
           Get in Touch{" "}
         </h1>
-        <p className="text-base font-semibold text-gray-500 mt-1">Contact Me</p>
+        <p className="text-base font-semibold text-gray-500 mt-1">Full Stack Developer</p>
       </div>
 
       <div className="container pb-14 flex lg:flex-row flex-col lg:gap-8 gap-0 lg:mt-0 lg:px-20 px-5 mt-8 lg:justify-start justify-center lg:items-start items-center">

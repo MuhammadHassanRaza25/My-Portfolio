@@ -21,7 +21,7 @@ export default function Services() {
 
       <div className="container servicesCardDiv lg:pb-10 pb-20 lg:mt-0 lg:px-10 px-5 mt-8 flex items-center justify-evenly min-h-[430px]">
         <MotionUp delay={0.1}>
-          <div className="serviceCard shadow transition duration-200 hover:scale-[1] hover:-translate-y-2 flex flex-col justify-center gap-5 lg:w-[350px] lg:h-[300px] h-[220px] bg-white rounded-lg border-2 border-gray-300 hover:border-blue-500 px-3">
+          <div className="serviceCard shadow transition duration-200 hover:scale-[1] hover:-translate-y-2 flex flex-col justify-center gap-5 lg:w-[350px] lg:h-[300px] h-[220px] bg-white rounded-2xl border-2 border-gray-300 hover:border-blue-500 px-3">
             <p className="text-gray-800 px-5 flex flex-col gap-3 lg:text-xl md:text-xl font-semibold">
               <span className="flex justify-center items-center rounded-full w-[60px] p-3 bg-black text-white">
                 <FaCode className="text-4xl" />
@@ -35,7 +35,7 @@ export default function Services() {
         </MotionUp>
 
         <MotionUp delay={0.2}>
-          <div className="serviceCard shadow transition duration-200 hover:scale-[1] hover:-translate-y-2 flex flex-col justify-center gap-5 lg:w-[350px] lg:h-[300px] h-[220px] bg-white rounded-xl border-2 border-gray-300 hover:border-blue-500 px-3">
+          <div className="serviceCard shadow transition duration-200 hover:scale-[1] hover:-translate-y-2 flex flex-col justify-center gap-5 lg:w-[350px] lg:h-[300px] h-[220px] bg-white rounded-2xl border-2 border-gray-300 hover:border-blue-500 px-3">
             <p className="text-gray-800 px-5 flex flex-col gap-3 lg:text-xl md:text-xl font-semibold">
               <span className="flex justify-center items-center rounded-full w-[60px] p-3 bg-black text-white">
                 <HiOutlineDesktopComputer className="text-4xl" />
@@ -46,9 +46,8 @@ export default function Services() {
           </div>
         </MotionUp>
 
-
         <MotionUp delay={0.3}>
-          <div className="serviceCard shadow transition duration-200 hover:scale-[1] hover:-translate-y-2 flex flex-col justify-center gap-5 lg:w-[350px] lg:h-[300px] h-[220px] bg-white rounded-xl border-2 border-gray-300 hover:border-blue-500 px-3">
+          <div className="serviceCard shadow transition duration-200 hover:scale-[1] hover:-translate-y-2 flex flex-col justify-center gap-5 lg:w-[350px] lg:h-[300px] h-[220px] bg-white rounded-2xl border-2 border-gray-300 hover:border-blue-500 px-3">
             <p className="text-gray-800 px-5 flex flex-col gap-3 lg:text-xl md:text-xl font-semibold">
               <span className="flex justify-center items-center rounded-full w-[60px] p-3 bg-black text-white">
                 <LuSettings className="text-4xl" />

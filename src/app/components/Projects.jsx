@@ -114,7 +114,7 @@ export default function Projects() {
           <ModalBody className="scrollHide !max-w-[700px] border-2 overflow-scroll">
             <ModalContent className="mt-5">
               <div className="mb-5 pr-1 flex justify-between items-center flex-wrap gap-x-5 gap-y-2">
-                <h1 className="text-xl font-bold text-black">
+                <h1 className="text-xl font-bold text-black dark:text-white">
                   Learning Management System
                 </h1>
                 <div className="flex gap-4 items-center">
@@ -141,7 +141,7 @@ export default function Projects() {
                 </div>
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
-                <p className="leading-relaxed text-sm text-neutral-700 font-semibold">
+                <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
                   This Learning Management System is designed to streamline the
                   management and delivery of educational content, offering three
                   distinct user flows: Admin, Teacher, and Student. Admins have
@@ -285,7 +285,7 @@ export default function Projects() {
           <ModalBody className="scrollHide !max-w-[700px] border-2 overflow-scroll">
             <ModalContent className="mt-5">
               <div className="mb-5 pr-1 flex justify-between items-center flex-wrap gap-x-5 gap-y-2">
-                <h1 className="text-xl font-bold text-black">
+                <h1 className="text-xl font-bold text-black dark:text-white">
                   Design Agency Website
                 </h1>
                 <div className="flex gap-4 items-center">
@@ -312,7 +312,7 @@ export default function Projects() {
                 </div>
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
-                <p className="leading-relaxed text-sm text-neutral-700 font-semibold">
+                <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
                   I developed a fully responsive design agency website using React and Tailwind CSS, ensuring a smooth and modern user experience across all devices. The site features clean, efficient styling and fast performance, combining the power of React’s dynamic components with Tailwind’s flexible design system to deliver a professional, visually appealing, and easy-to-navigate platform that perfectly represents the brand.
                 </p>
               </div>
@@ -431,7 +431,7 @@ export default function Projects() {
           <ModalBody className="scrollHide !max-w-[700px] border-2 overflow-scroll">
             <ModalContent className="mt-5">
               <div className="mb-5 pr-1 flex justify-between items-center flex-wrap gap-x-5 gap-y-2">
-                <h1 className="text-xl font-bold text-black">
+                <h1 className="text-xl font-bold text-black dark:text-white">
                   E-Commerce Website
                 </h1>
                 <div className="flex gap-4 items-center">
@@ -458,7 +458,7 @@ export default function Projects() {
                 </div>
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
-                <p className="leading-relaxed text-sm text-neutral-700 font-semibold">
+                <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
                   Explore my E-commerce website built with ReactJS & Firebase!
                   Key features include Google Authentication, easy Add to Cart
                   and Delete items from Cart, product search, category
@@ -610,7 +610,7 @@ export default function Projects() {
           <ModalBody className="scrollHide !max-w-[700px] border-2 overflow-scroll">
             <ModalContent className="mt-5">
               <div className="mb-5 pr-1 flex justify-between items-center flex-wrap gap-x-5 gap-y-2">
-                <h1 className="text-xl font-bold text-black">
+                <h1 className="text-xl font-bold text-black dark:text-white">
                   Weather App
                 </h1>
                 <div className="flex gap-4 items-center">
@@ -637,7 +637,7 @@ export default function Projects() {
                 </div>
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
-                <p className="leading-relaxed text-sm text-neutral-700 font-semibold">
+                <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
                    WeatherNow offers real-time updates with detailed information, all in a fully responsive design. Access accurate forecasts and current conditions seamlessly across any device.
                 </p>
               </div>
@@ -737,7 +737,7 @@ export default function Projects() {
           <ModalBody className="scrollHide !max-w-[700px] border-2 overflow-scroll">
             <ModalContent className="mt-5">
               <div className="mb-5 pr-1 flex justify-between items-center flex-wrap gap-x-5 gap-y-2">
-                <h1 className="text-xl font-bold text-black">Web Glowing</h1>
+                <h1 className="text-xl font-bold text-black dark:text-white">Web Glowing</h1>
                 <div className="flex gap-4 items-center">
                   <Link
                     href="https://webglowing.com/"
@@ -762,7 +762,7 @@ export default function Projects() {
                 </div>
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
-                <p className="leading-relaxed text-sm text-neutral-700 font-semibold">
+                <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
                   Web Glowing offers a collection of essential design tools for
                   web developers, including Box Shadow Generator, Text Shadow
                   Generator, CSS Cursor, QR Code Generator, Text to Speech,
@@ -882,7 +882,7 @@ export default function Projects() {
           <ModalBody className="scrollHide !max-w-[700px] border-2 overflow-scroll">
             <ModalContent className="mt-5">
               <div className="mb-5 pr-1 flex justify-between items-center flex-wrap gap-x-5 gap-y-2">
-                <h1 className="text-xl font-bold text-black">Coming Soon ......</h1>
+                <h1 className="text-xl font-bold text-black dark:text-white">Coming Soon ......</h1>
                 <div className="flex gap-4 items-center">
                   <Link
                     href=""
@@ -907,7 +907,7 @@ export default function Projects() {
                 </div>
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
-                <p className="leading-relaxed text-sm text-neutral-700 font-semibold">
+                <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
                   Coming soon.....
                 </p>
               </div>

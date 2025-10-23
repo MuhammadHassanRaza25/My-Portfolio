@@ -10,7 +10,7 @@ export default function Experience() {
       content: (
         <div className="flex flex-col gap-5 lg:w-[430px] lg:h-auto bg-gray-50 rounded-lg border-b-2 border-blue-700 pb-5 pt-5 px-3">
           <p className="text-gray-800 px-5 flex flex-col lg:text-2xl md:text-xl font-bold">
-            Front End Developer 
+            Front-End Developer 
             <span className="font-semibold text-gray-500 lg:text-base md:text-sm">
               Integral Technologists
             </span>
@@ -28,7 +28,7 @@ export default function Experience() {
       content: (
         <div className="flex flex-col gap-5 lg:w-[430px] lg:h-auto bg-gray-50 rounded-lg border-b-2 border-blue-700 pb-5 pt-5 px-3">
           <p className="text-gray-800 px-5 flex flex-col lg:text-2xl md:text-xl font-bold">
-            Front End Developer Intern
+            Front-End Developer Intern
             <span className="font-semibold text-gray-500 lg:text-base md:text-sm">
               Globus Solution
             </span>
@@ -37,24 +37,6 @@ export default function Experience() {
             <li>Collaborated with an international team to design, develop, and maintain scalable web applications, including an advanced admin dashboard, using React.js.</li>
             <li>Improved overall application performance by applying best practices in code structure, state management, and load time optimization.</li>
             <li>Integrated multiple third-party APIs to ensure seamless data flow, real-time updates, and enhanced functionality across different parts of the application.</li>
-          </ul>
-        </div>
-      ),
-    },
-    {
-      title: "November 2024 - January 2025",
-      content: (
-        <div className="flex flex-col gap-5 lg:w-[430px] lg:h-auto bg-gray-50 rounded-lg border-b-2 border-blue-700 pb-5 pt-5 px-3">
-          <p className="text-gray-800 px-5 flex flex-col lg:text-2xl md:text-xl font-bold">
-            Full Stack Developer Intern
-            <span className="font-semibold text-gray-500 lg:text-base md:text-sm">
-              Saylani Welfare International Trust  
-            </span>
-          </p>
-          <ul className="list-disc text-sm space-y-2 lg:px-9 pl-9 pr-2 text-gray-800 font-semibold">
-            <li>Played a key role in the development of a full-featured Learning Management System (LMS) for the Saylani Mass IT Training Program, built to support thousands of students, instructors, and administrative users.</li>
-            <li>Worked as part of a 4-member development team to design and implement core features including course management, batch creation, assignments, and interactive student-teacher tools. </li>
-            <li>Utilized React.js for the front-end, Node.js for the back-end, and MongoDB for database management to ensure a scalable and responsive user experience.</li>
           </ul>
         </div>
       ),

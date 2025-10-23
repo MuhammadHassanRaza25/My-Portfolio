@@ -1,28 +1,6 @@
-import { MotionUp } from "./ui/motion-up";
-import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
+import { MotionUp } from "../../../src/app/components/ui/motion-up";
+import { CardBody, CardContainer, CardItem } from "../../../src/app/components/ui/3d-card";
 import Image from "next/image";
-import lmsimg1 from "../assets/images/lmsimg1.png";
-import lmsimg2 from "../assets/images/lmsimg2.png";
-import lmsimg3 from "../assets/images/lmsimg3.png";
-import lmsimg4 from "../assets/images/lmsimg4.png";
-import ecommerceimg1 from "../assets/images/ecommerceimg1.png";
-import ecommerceimg2 from "../assets/images/ecommerceimg2.png";
-import ecommerceimg3 from "../assets/images/ecommerceimg3.png";
-import ecommerceimg4 from "../assets/images/ecommerceimg4.png";
-import ecommerceimg5 from "../assets/images/ecommerceimg5.png";
-import ecommerceimg6 from "../assets/images/ecommerceimg6.png";
-import webglowingimg1 from "../assets/images/webglowingimg1.png";
-import webglowingimg2 from "../assets/images/webglowingimg2.png";
-import webglowingimg3 from "../assets/images/webglowingimg3.png";
-import webglowingimg4 from "../assets/images/webglowingimg4.png";
-import comingsoon from "../assets/images/comingsoon.avif";
-import designagency from "../assets/images/designagency.png";
-import agencyimg1 from "../assets/images/agencyimg1.png";
-import agencyimg2 from "../assets/images/agencyimg2.png";
-import agencyimg3 from "../assets/images/agencyimg3.png";
-import agencyimg4 from "../assets/images/agencyimg4.png";
-import weatherimg1 from "../assets/images/weatherimg1.png";
-import weatherimg2 from "../assets/images/weatherimg2.png";
 import { FaArrowRight } from "react-icons/fa6";
 import { CgMoreO } from "react-icons/cg";
 import Link from "next/link";
@@ -31,9 +9,32 @@ import {
   ModalBody,
   ModalContent,
   ModalTrigger,
-} from "../components/ui/animated-modal";
+} from "../../../src/app/components/ui/animated-modal";
 import { FaEye } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+
+const lmsimg1 = "/images/projects/lmsimg1.png";
+const lmsimg2 = "/images/projects/lmsimg2.png";
+const lmsimg3 = "/images/projects/lmsimg3.png";
+const lmsimg4 = "/images/projects/lmsimg4.png";
+const ecommerceimg1 = "/images/projects/ecommerceimg1.png";
+const ecommerceimg2 = "/images/projects/ecommerceimg2.png";
+const ecommerceimg3 = "/images/projects/ecommerceimg3.png";
+const ecommerceimg4 = "/images/projects/ecommerceimg4.png";
+const ecommerceimg5 = "/images/projects/ecommerceimg5.png";
+const ecommerceimg6 = "/images/projects/ecommerceimg6.png";
+const webglowingimg1 = "/images/projects/webglowingimg1.png";
+const webglowingimg2 = "/images/projects/webglowingimg2.png";
+const webglowingimg3 = "/images/projects/webglowingimg3.png";
+const webglowingimg4 = "/images/projects/webglowingimg4.png";
+const comingsoon = "/images/projects/comingsoon.avif";
+const designagency = "/images/projects/designagency.png";
+const agencyimg1 = "/images/projects/agencyimg1.png";
+const agencyimg2 = "/images/projects/agencyimg2.png";
+const agencyimg3 = "/images/projects/agencyimg3.png";
+const agencyimg4 = "/images/projects/agencyimg4.png";
+const weatherimg1 = "/images/projects/weatherimg1.png";
+const weatherimg2 = "/images/projects/weatherimg2.png";
 
 export default function Projects() {
   return (

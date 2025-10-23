@@ -4,8 +4,9 @@ let data = {
     name: "Muhammad Hassan Raza",
     email: "hassanejaz773@gmail.com",
     address: "Karachi, Pakistan",
-    position1: "Full Stack Developer",
-    position2: "MERN Stack Developer",
+    position1: "Software Engineer",
+    position2: "Full Stack Developer",
+    position3: "MERN Stack Developer",
     // resume: "",
     profileImage:
       "https://avatars.githubusercontent.com/u/153998754?v=4",
@@ -60,62 +61,68 @@ let data = {
   skills: [
     {
       name: "HTML",
-      image: "https://www.svgrepo.com/show/452228/html-5.svg",
+      image: "/images/skills/html.svg",
     },
     {
       name: "CSS",
-      image: "https://www.svgrepo.com/show/452185/css-3.svg",
-    },
-    {
-      name: "Tailwind CSS",
-      image: "https://www.svgrepo.com/show/374118/tailwind.svg",
-    },
-    {
-      name: "Bootstrap",
-      image: "https://www.svgrepo.com/show/353498/bootstrap.svg",
-    },
+      image: "/images/skills/css.svg",
+    },    
     {
       name: "JavaScript",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      image: "/images/skills/javascript.svg",
     },
     {
       name: "TypeScript",
-      image: "https://www.svgrepo.com/show/303600/typescript-logo.svg",
+      image: "/images/skills/typescript.svg",
     },
     {
-      name: "Git",
-      image: "https://www.svgrepo.com/show/452210/git.svg",
+      name: "Tailwind CSS",
+      image: "/images/skills/tailwind.svg",
     },
     {
-      name: "Github",
-      image: "https://www.svgrepo.com/download/445786/github.svg",
+      name: "Bootstrap",
+      image: "/images/skills/bootstrap.svg",
     },
-    {
-      name: "Firebase",
-      image: "https://www.svgrepo.com/show/353735/firebase.svg",
-    },
+
     {
       name: "React.js",
-      image:
-        "https://www.svgrepo.com/show/452092/react.svg",
+      image: "/images/skills/react.svg",
     },
     {
       name: "Next.js",
-      image: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+      image: "/images/skills/next.svg",
+    },
+    {
+      name: "TanStack Query",
+      image: "/images/skills/tanstack.png",
     },
     {
       name: "Node.js",
-      image: "https://www.svgrepo.com/show/373929/node.svg",
+      image: "/images/skills/node.svg",
     },
     {
       name: "Express.js",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj-QOD635HWyued_HWaH0CJMjuVIhIshCw6g&s",
+      image: "/images/skills/express.svg",
     },
     {
       name: "MongoDB",
-      image: "https://www.svgrepo.com/show/331488/mongodb.svg",
+      image: "/images/skills/mongodb.svg",
+    },    
+    {
+      name: "Firebase",
+      image: "/images/skills/firebase.svg",
+    },
+    {
+      name: "Cloudinary",
+      image: "/images/skills/cloudinary.png",
+    },
+    {
+      name: "Git",
+      image: "/images/skills/git.svg",
+    },
+    {
+      name: "GitHub",
+      image: "/images/skills/github.svg",
     },
   ],
 };

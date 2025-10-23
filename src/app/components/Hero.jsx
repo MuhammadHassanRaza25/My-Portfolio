@@ -4,8 +4,6 @@ import { FlipWords } from "./ui/flip-words";
 import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 import { PiDownloadSimpleBold } from "react-icons/pi";
-import scrollicon from "../assets/images/scrollicon.gif";
-import mypicture from "../assets/images/mypicture.png";
 import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 
@@ -71,7 +69,7 @@ export default function Hero({ data }) {
             <div className="lg:flex items-center pl-1 hidden">
               <p className="text-lg font-medium">Scroll Down</p>
               <Image
-                src={scrollicon}
+                src="/images/scrollicon.gif"
                 width={40}
                 height={40}
                 alt="scroll image"
@@ -86,7 +84,7 @@ export default function Hero({ data }) {
               className="rounded-lg"
               width={310}
               height={310}
-              src={mypicture}
+              src="/images/mypicture.png"
               alt="hero image"
             ></Image>
           </div>

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { MotionUp } from "./ui/motion-up";
-import mypicture from "../assets/images/mypicture.png";
 
 export default function Aboutme({ data }) {
   return (
@@ -26,7 +25,7 @@ export default function Aboutme({ data }) {
               className="rounded-lg"
               width={310}
               height={310}
-              src={mypicture}
+              src="/images/mypicture.png"
               alt="about image"
             ></Image>
           </div>

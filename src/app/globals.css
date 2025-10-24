@@ -18,22 +18,28 @@
   aspect-ratio: 1;
   border-radius: 50%;
   background: #ffffff;
-  --_m: 
-    conic-gradient(#0000 10%,#000),
+  --_m:
+    conic-gradient(#0000 10%, #000),
     linear-gradient(#000 0 0) content-box;
   -webkit-mask: var(--_m);
-          mask: var(--_m);
+  mask: var(--_m);
   -webkit-mask-composite: source-out;
-          mask-composite: subtract;
+  mask-composite: subtract;
   animation: l3 1s infinite linear;
 }
-@keyframes l3 {to{transform: rotate(1turn)}}
- 
+
+@keyframes l3 {
+  to {
+    transform: rotate(1turn)
+  }
+}
+
 @keyframes spotlight {
   0% {
     opacity: 0;
     transform: translate(-72%, -62%) scale(0.5);
   }
+
   100% {
     opacity: 1;
     transform: translate(-40%, -20%) scale(1);
@@ -56,74 +62,106 @@ body {
   background: var(--background);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e2e2e2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6d6d6d;
+}
+
 /* ::-webkit-scrollbar{
   display: none;
 } */
-.scrollHide::-webkit-scrollbar{
+.scrollHide::-webkit-scrollbar {
   display: none;
 }
+
 /* skill cards animation */
 @keyframes scrollLeft {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
 }
+
 .animate-scroll {
   animation: scrollLeft var(--animation-duration) linear infinite;
 }
+
 /* skill cards animation */
-.shadow{
+.shadow {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.btn{
-  background: linear-gradient(80deg, rgba(0,34,168,1) 0%, rgba(0,142,255,1) 100%);
+
+.btn {
+  background: linear-gradient(80deg, rgba(0, 34, 168, 1) 0%, rgba(0, 142, 255, 1) 100%);
 }
-.btn:hover{
+
+.btn:hover {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
 .containerHeader {
   max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .container {
   max-width: 1250px;
   margin-left: auto;
   margin-right: auto;
 }
-.contactBg{
+
+.contactBg {
   background-color: rgb(252, 252, 252);
 }
 
-@media(max-width:1024px){
-  .servicesCardDiv{
+@media(max-width:1024px) {
+  .servicesCardDiv {
     flex-direction: column;
     gap: 15px;
     margin-top: 7%;
   }
 }
-@media(max-width:640px){
-  .aboutDesc{
+
+@media(max-width:640px) {
+  .aboutDesc {
     width: 65vw;
     /* margin-left: 1vw; */
   }
 }
-@media(max-width:450px){
-    .serviceCard{
-    height: 260px;
+
+@media(max-width:450px) {
+  .serviceCard {
+    height: 270px;
   }
 }
-@media(max-width:430px){
-  .aboutDesc{
+
+@media(max-width:430px) {
+  .aboutDesc {
     width: 80vw;
   }
-  .servicesCardDiv{
+
+  .servicesCardDiv {
     margin-top: 10%;
   }
-  .serviceCard{
+
+  .serviceCard {
     margin-bottom: 3%;
   }
 }

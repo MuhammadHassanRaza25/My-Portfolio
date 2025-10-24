@@ -27,7 +27,6 @@ export default function Hero({ data }) {
           <MotionUp delay={0}>
             <div>
               <Highlight className="text-white font-extrabold lg:text-4xl text-2xl">
-                {/* {data.position} */}
                 <FlipWords words={words} />
               </Highlight>
             </div>

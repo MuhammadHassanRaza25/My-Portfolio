@@ -1,6 +1,5 @@
 let data = {
   personalInfo: {
-    siteName: "Hassan Raza Portfolio",
     name: "Muhammad Hassan Raza",
     email: "hassanejaz773@gmail.com",
     address: "Karachi, Pakistan",
@@ -8,10 +7,9 @@ let data = {
     position2: "Full Stack Developer",
     position3: "MERN Stack Developer",
     // resume: "",
-    profileImage:
-      "https://avatars.githubusercontent.com/u/153998754?v=4",
+    // profileImage: "",
     description:
-      "Hello, I’m Muhammad Hassan Raza, a Full Stack Developer with a strong passion for building innovative and scalable web applications. My journey in tech started at an early age, and over the years, I’ve gained expertise in technologies such as JavaScript, TypeScript, React.js, Next.js, Firebase, Node.js, Express.js, and MongoDB. I thrive on solving complex challenges and am always eager to learn and grow in the ever-evolving tech landscape. My focus is on creating user-centric, high-quality software that not only meets but exceeds expectations, delivering solutions that drive real business growth.",
+      "Hello, I’m Muhammad Hassan Raza, a Full Stack Developer building clean, modern, and high-performance web applications and SaaS products. I specialize in building scalable, user-friendly solutions using JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, and MongoDB, with expertise in cloud services, and modern development workflows. My goal is to deliver solutions that are reliable, intuitive, and drive real business value. I thrive on turning innovative ideas into seamless digital experiences that scale globally and exceed user expectations.",
   },
   socialLinks: [
     {
@@ -23,11 +21,6 @@ let data = {
       title: "LinkedIn",
       url: "https://www.linkedin.com/in/muhammad-hassan-raza-aab5402b7/",
       priority: 2,
-    },
-    {
-      title: "Facebook",
-      url: "https://www.linkedin.com/in/muhammad-hassan-raza-aab5402b7/",
-      priority: 3,
     },
   ],
   education: [
@@ -66,7 +59,7 @@ let data = {
     {
       name: "CSS",
       image: "/images/skills/css.svg",
-    },    
+    },
     {
       name: "JavaScript",
       image: "/images/skills/javascript.svg",
@@ -83,7 +76,6 @@ let data = {
       name: "Bootstrap",
       image: "/images/skills/bootstrap.svg",
     },
-
     {
       name: "React.js",
       image: "/images/skills/react.svg",
@@ -107,7 +99,7 @@ let data = {
     {
       name: "MongoDB",
       image: "/images/skills/mongodb.svg",
-    },    
+    },
     {
       name: "Firebase",
       image: "/images/skills/firebase.svg",

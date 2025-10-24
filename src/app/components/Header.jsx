@@ -17,7 +17,8 @@ export default function Header() {
 
   return (
     <>
-      <div id="home" className="containerHeader flex justify-between p-5 z-50 bg-white">
+    <header id="home" className="sticky top-0 z-50 w-full backdrop-blur-md bg-white/90 border-b">
+      <div className="containerHeader flex justify-between p-5 sticky top-0">
         <div>
           <h1 className="font-semibold text-lg">Muhammad Hassan Raza</h1>
         </div>
@@ -53,7 +54,7 @@ export default function Header() {
         </div>
 
         {/* Desktop screen Links) */}
-        <div className="hidden lg:flex justify-center items-center gap-5">
+        <div className="hidden lg:flex justify-center items-center gap-8">
           <Link href={"#home"} className="font-semibold hover:text-blue-700">
             <p>Home</p>
           </Link>
@@ -98,6 +99,7 @@ export default function Header() {
           </div>
         )}
       </div>
+      </header>
     </>
   );
 }

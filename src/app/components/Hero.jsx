@@ -16,8 +16,8 @@ export default function Hero({ data }) {
         className="-top-40 left-0 md:-top-20 md:left-60"
         fill="#4a6bff"
       />
-      <div className="container flex lg:flex-row flex-col lg:pt-0 pt-16 items-center justify-evenly min-h-[525px]">
-        <div className="flex flex-col lg:gap-6 gap-4 px-5 lg:mr-8 md:mr-8 mr-0">
+      <div className="container flex lg:flex-row flex-col lg:pt-0 pt-16 items-center justify-between lg:px-20 px-5 min-h-[525px]">
+        <div className="flex flex-col lg:gap-6 gap-4">
           <MotionUp delay={0}>
             <h1 className="text-black font-extrabold lg:text-4xl text-2xl">
               Hi, I'm Muhammad Hassan Raza
@@ -44,7 +44,7 @@ export default function Hero({ data }) {
           </MotionUp>
 
           <MotionUp delay={0.5}>
-            <div className="text-white font-bold lg:text-3xl md:text-2xl">
+            <div className="text-white font-bold lg:text-2xl md:text-2xl">
               <span className="text-black">Based in {data.address}</span>
             </div>
           </MotionUp>

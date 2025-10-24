@@ -58,8 +58,8 @@ export default function Projects() {
       {/* Container 1 */}
       <div className="container flex lg:px-14 px-5 mt-8 lg:flex-row flex-col items-center justify-evenly min-h-[400px]">
         {/* Card 1 */}
-           <Modal>
-          <MotionUp delay={0.3}>
+        <Modal>
+          <MotionUp delay={0.1}>
             <CardContainer className="inter-var w-full my-4 flex items-stretch">
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] min-h-[400px] h-full rounded-xl p-4 border">
                 <CardItem translateZ="70" className="w-full">
@@ -197,7 +197,7 @@ export default function Projects() {
 
         {/* Card 2 */}
         <Modal>
-          <MotionUp delay={0.1}>
+          <MotionUp delay={0.2}>
             <CardContainer className="inter-var w-full my-4 flex items-stretch">
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] min-h-[400px] h-full rounded-xl p-4 border">
                 <CardItem translateZ="70" className="w-full">
@@ -361,7 +361,7 @@ export default function Projects() {
 
         {/* Card 3 */}
         <Modal>
-          <MotionUp delay={0.2}>
+          <MotionUp delay={0.3}>
             <CardContainer className="inter-var w-full my-4 flex items-stretch">
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] min-h-[400px] h-full rounded-xl p-4 border">
                 <CardItem translateZ="70" className="w-full">
@@ -534,7 +534,7 @@ export default function Projects() {
       <div className="container pb-20 flex lg:px-14 px-5 mt-1 lg:flex-row flex-col items-center justify-evenly min-h-[400px]">
         {/* Card 1 */}
         <Modal>
-          <MotionUp delay={0.2}>
+          <MotionUp delay={0.1}>
             <CardContainer className="inter-var w-full my-4 flex items-stretch">
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] min-h-[400px] h-full rounded-xl p-4 border">
                 <CardItem translateZ="70" className="w-full">
@@ -671,7 +671,7 @@ export default function Projects() {
 
         {/* Card 2 */}
         <Modal>
-          <MotionUp delay={0.3}>
+          <MotionUp delay={0.2}>
             <CardContainer className="inter-var w-full my-4 flex items-stretch">
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] min-h-[400px] h-full rounded-xl p-4 border">
                 <CardItem translateZ="70" className="w-full">
@@ -818,7 +818,7 @@ export default function Projects() {
 
         {/* Card 3 */}
         <Modal>
-          <MotionUp delay={0.1}>
+          <MotionUp delay={0.3}>
             <CardContainer className="inter-var w-full my-4 flex items-stretch">
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] min-h-[400px] h-full rounded-xl p-4 border">
                 <CardItem translateZ="70" className="w-full">

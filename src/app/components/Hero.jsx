@@ -8,7 +8,7 @@ import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 
 export default function Hero({ data }) {
-  const words = [data.position1, data.position2];
+  const words = [data.position1, data.position2, data.position3];
 
   return (
     <>

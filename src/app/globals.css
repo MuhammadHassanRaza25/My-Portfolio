@@ -108,7 +108,7 @@ body {
 @media(max-width:640px){
   .aboutDesc{
     width: 65vw;
-    margin-left: 1vw;
+    /* margin-left: 1vw; */
   }
 }
 @media(max-width:450px){
@@ -118,7 +118,7 @@ body {
 }
 @media(max-width:430px){
   .aboutDesc{
-    width: 88vw;
+    width: 80vw;
   }
   .servicesCardDiv{
     margin-top: 10%;

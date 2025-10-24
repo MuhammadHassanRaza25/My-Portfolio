@@ -18,8 +18,8 @@ export default function Aboutme({ data }) {
         </MotionUp>
       </div>
 
-      <div className="container flex lg:flex-row flex-col items-center justify-evenly min-h-[440px]">
-        <MotionUp delay={0}>
+      <div className="container flex lg:flex-row flex-col items-center justify-center lg:mt-10 md:mt-0 pb-16">
+        {/* <MotionUp delay={0}>
           <div className="lg:mt-1 mt-10 lg:px-0 md:px-0 px-5">
             <Image
               className="rounded-lg"
@@ -29,11 +29,11 @@ export default function Aboutme({ data }) {
               alt="about image"
             ></Image>
           </div>
-        </MotionUp>
+        </MotionUp> */}
 
         <div className="flex flex-col lg:gap-2 gap-5">
           <MotionUp delay={0.3}>
-            <p className="aboutDesc flex flex-col gap-3 text-black lg:w-[550px] md:w-[38vw] sm:w-[48vw] font-semibold lg:text-lg md:text-lg lg:pt-0 pt-10">
+            <p className="aboutDesc flex flex-col gap-3 text-black lg:w-[700px] md:w-[38vw] sm:w-[48vw] font-semibold lg:text-lg md:text-lg text-base lg:pt-0 pt-10">
               {data.description}
               <span className="italic">
                 Turning innovative ideas into seamless, high-quality{" "}

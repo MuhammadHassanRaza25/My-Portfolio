@@ -9,6 +9,7 @@ import { Spotlight } from "./ui/Spotlight";
 
 export default function Hero({ data }) {
   const words = [data.position1, data.position2, data.position3];
+  const skills = ["MERN Stack", "React & Next.js"];
 
   return (
     <>
@@ -16,11 +17,11 @@ export default function Hero({ data }) {
         className="-top-40 left-0 md:-top-20 md:left-60"
         fill="#4a6bff"
       />
-      <div className="container flex lg:flex-row flex-col lg:pt-0 pt-16 items-center justify-between lg:px-20 px-5 min-h-[525px]">
-        <div className="flex flex-col lg:gap-6 gap-4">
+      <div className="container flex lg:flex-row flex-col lg:pt-0 pt-16 items-center justify-between lg:px-20 md:px-5 px-7 min-h-[525px]">
+        <div className="flex flex-col lg:items-start items-center lg:gap-6 gap-4">
           <MotionUp delay={0}>
-            <h1 className="text-black font-extrabold lg:text-4xl text-2xl">
-              Hi, I'm Muhammad Hassan Raza
+            <h1 className="text-black font-extrabold lg:text-4xl text-2xl lg:text-start text-center">
+              Hi<span className="lg:hidden">👋</span>, I'm Muhammad Hassan Raza
             </h1>
           </MotionUp>
 
@@ -33,12 +34,16 @@ export default function Hero({ data }) {
           </MotionUp>
 
           <MotionUp delay={0.3}>
-            <div className="text-white font-bold lg:text-3xl text-base mt-3">
+            <div className="text-white font-bold lg:text-3xl text-lg mt-3">
               <div>
                 <span className="text-black">Specialized in</span>{" "}
+                 <Highlight className="py-1 px-1 lg:text-2xl text-base lg:rounded-md rounded-md">
+                    <FlipWords words={skills} />
+                  </Highlight>{" "}
+                {/* <span className="text-black">,</span>{" "}
                 <Highlight>React</Highlight>{" "}
                 <span className="text-black">and</span>{" "}
-                <Highlight>Next.js</Highlight>
+                <Highlight>Next.js</Highlight> */}
               </div>
             </div>
           </MotionUp>
@@ -78,7 +83,7 @@ export default function Hero({ data }) {
         </div>
 
         <MotionUp delay={0.3}>
-          <div className="lg:mt-0 mt-10 lg:px-0 md:px-0 px-5">
+          <div className="lg:mt-0 mt-10 lg:px-0 md:px-0">
             <Image
               className="rounded-lg"
               width={310}

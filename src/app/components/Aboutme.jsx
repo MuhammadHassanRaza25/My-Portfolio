@@ -33,7 +33,7 @@ export default function Aboutme({ data }) {
 
         <div className="flex flex-col lg:gap-2 gap-5">
           <MotionUp delay={0.3}>
-            <p className="aboutDesc bg-white flex flex-col gap-3 text-black lg:w-[700px] md:w-[38vw] sm:w-[48vw] font-semibold lg:text-lg md:text-lg text-base lg:pt-0 pt-10">
+            <p className="aboutDesc bg-white flex flex-col gap-3 text-black lg:w-[700px] md:w-[38vw] sm:w-[48vw] font-semibold lg:text-lg md:text-lg text-base lg:mt-0 mt-10">
               {data.description}
               <span className="italic">
                 Turning ideas into high-performance & {" "}

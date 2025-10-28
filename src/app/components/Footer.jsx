@@ -21,6 +21,7 @@ export default function Footer() {
         <div className="mb-6 flex flex-wrap lg:px-0 md:px-0 px-5 items-center justify-center mt-5 gap-5">
           <Link href={"#home"} className="text-base font-semibold hover:text-blue-700"><p>Home</p></Link>
           <Link href={"#about"} className="text-base font-semibold hover:text-blue-700"><p>About</p></Link>
+          <Link href={"#experience"} className="text-base font-semibold hover:text-blue-700"><p>Experience</p></Link>
           <Link href={"#skills"} className="text-base font-semibold hover:text-blue-700"><p>Skills</p></Link>
           <Link href={"#services"} className="text-base font-semibold hover:text-blue-700"><p>Services</p></Link>
           <Link href={"#projects"} className="text-base font-semibold hover:text-blue-700"><p>Projects</p></Link>

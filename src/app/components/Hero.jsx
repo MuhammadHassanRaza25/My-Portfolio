@@ -21,7 +21,7 @@ export default function Hero({ data }) {
         <div className="flex flex-col lg:items-start items-center lg:gap-6 gap-4">
           <MotionUp delay={0}>
             <h1 className="text-black font-extrabold lg:text-4xl text-3xl lg:text-start text-center">
-              Hi<span className="lg:hidden">👋</span>, I'm Muhammad Hassan Raza
+              Hi<span className="lg:hidden ml-1">👋</span>, I'm Muhammad Hassan Raza
             </h1>
           </MotionUp>
 

@@ -21,43 +21,44 @@ export default function Services() {
 
       <div className="container servicesCardDiv lg:pb-10 pb-20 lg:mt-0 lg:px-14 px-5 mt-8 flex items-center justify-evenly min-h-[430px]">
         <MotionUp delay={0.1}>
-          <div className="serviceCard shadow transition duration-200 hover:scale-[1] hover:-translate-y-2 flex flex-col justify-center gap-5 lg:w-[340px] lg:h-[300px] h-[220px] bg-white rounded-2xl border-2 border-gray-300 hover:border-blue-500 px-2">
+          <div className="serviceCard hover:shadow-lg transition duration-300 ease-out hover:scale-[1] hover:-translate-y-2 flex flex-col justify-center gap-5 lg:w-[340px] lg:h-[300px] h-[220px] bg-white rounded-2xl border border-gray-300 px-2">
             <p className="text-gray-800 px-5 flex flex-col gap-3 lg:text-xl md:text-xl font-semibold">
-              <span className="flex justify-center items-center rounded-full w-[60px] p-3 bg-black text-white">
+              <span className="flex justify-center items-center rounded-full w-[60px] h-[60px] p-3  bg-gradient-to-r from-blue-800 via-blue-800 to-blue-500 text-white">
                 <FaCode className="text-4xl" />
               </span>
               Full Stack Development
             </p>
-            <p className="px-5 lg:text-base md:text-base text-sm">
-               I specialize in developing full-stack web applications that combine elegant frontends with scalable backends, ensuring a smooth user experience across all devices and platforms.
+            <p className="px-5 text-gray-700 lg:text-base md:text-base text-sm">
+               Building scalable full-stack web applications with MERN stack, Next.js and modern frameworks, delivering seamless user experiences and responsive designs across all devices.
             </p>
           </div>
         </MotionUp>
 
         <MotionUp delay={0.2}>
-          <div className="serviceCard shadow transition duration-200 hover:scale-[1] hover:-translate-y-2 flex flex-col justify-center gap-5 lg:w-[340px] lg:h-[300px] h-[220px] bg-white rounded-2xl border-2 border-gray-300 hover:border-blue-500 px-2">
+          <div className="serviceCard hover:shadow-lg transition duration-300 ease-out hover:scale-[1] hover:-translate-y-2 flex flex-col justify-center gap-5 lg:w-[340px] lg:h-[300px] h-[220px] bg-white rounded-2xl border border-gray-300 px-2">
             <p className="text-gray-800 px-5 flex flex-col gap-3 lg:text-xl md:text-xl font-semibold">
-              <span className="flex justify-center items-center rounded-full w-[60px] p-3 bg-black text-white">
+              <span className="flex justify-center items-center rounded-full w-[60px] h-[60px] p-3  bg-gradient-to-r from-blue-800 via-blue-800 to-blue-500 text-white">
                 <HiOutlineDesktopComputer className="text-4xl" />
               </span>
                Frontend Development
             </p>
-            <p className="px-5 lg:text-base md:text-base text-sm">I specialize in developing responsive and interactive websites using React, Next.js, and modern tools, with a strong focus on performance optimization and user-friendly designs.</p>
+            <p className="px-5 text-gray-700 lg:text-base md:text-base text-sm">
+              Creating responsive and interactive websites with React, Next.js, and modern libraries, delivering optimized and user-friendly experiences across all devices.
+            </p>
           </div>
         </MotionUp>
 
         <MotionUp delay={0.3}>
-          <div className="serviceCard shadow transition duration-200 hover:scale-[1] hover:-translate-y-2 flex flex-col justify-center gap-5 lg:w-[340px] lg:h-[300px] h-[220px] bg-white rounded-2xl border-2 border-gray-300 hover:border-blue-500 px-2">
+          <div className="serviceCard hover:shadow-lg transition duration-300 ease-out hover:scale-[1] hover:-translate-y-2 flex flex-col justify-center gap-5 lg:w-[340px] lg:h-[300px] h-[220px] bg-white rounded-2xl border border-gray-300 px-2">
             <p className="text-gray-800 px-5 flex flex-col gap-3 lg:text-xl md:text-xl font-semibold">
-              <span className="flex justify-center items-center rounded-full w-[60px] p-3 bg-black text-white">
+              <span className="flex justify-center items-center rounded-full w-[60px] h-[60px] p-3  bg-gradient-to-r from-blue-800 via-blue-800 to-blue-500 text-white">
                 <LuSettings className="text-4xl" />
               </span>
               Backend Development
             </p>
-            <p className="px-5 lg:text-base md:text-base text-sm">
-              {/* I focus on developing backend functionalities that ensure optimal
-              functionality and a seamless user experience. */}
-               I specialize in building scalable and efficient backend systems with Node.js, Express.js, MongoDB, and Firebase, ensuring speed, stability, and smooth user experiences.</p>
+            <p className="px-5 text-gray-700 lg:text-base md:text-base text-sm">
+               Developing scalable backend systems with Node.js, Express.js, MongoDB, and modern backend technologies, ensuring optimized performance, reliability, and security.
+            </p>
           </div>
         </MotionUp>
       </div>

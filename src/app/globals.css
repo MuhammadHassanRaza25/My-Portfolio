@@ -146,11 +146,11 @@ body {
   }
 }
 
-@media(max-width:450px) {
+/* @media(max-width:450px) {
   .serviceCard {
     height: 270px;
   }
-}
+} */
 
 @media(max-width:430px) {
   .aboutDesc {

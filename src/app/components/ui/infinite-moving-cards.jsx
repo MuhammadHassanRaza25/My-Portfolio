@@ -81,7 +81,7 @@ export const InfiniteMovingCards2 = ({
       }}
       speed={8000}
       className={cn(
-        "relative z-20 lg:max-w-5xl md:max-w-3xl max-w-96 overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_5%,white_95%,transparent)]",
+        "relative z-20 lg:max-w-5xl md:max-w-3xl max-w-80 overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_5%,white_95%,transparent)]",
         className
       )}
     >

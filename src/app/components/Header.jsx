@@ -10,7 +10,6 @@ import { FaImage } from "react-icons/fa6";
 import { PiPhoneCallFill } from "react-icons/pi";
 
 export default function Header() {
-
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -20,7 +19,14 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "skills", "services", "projects", "contact"];
+      const sections = [
+        "home",
+        "about",
+        "skills",
+        "services",
+        "projects",
+        "contact",
+      ];
       let current = "home";
 
       sections.forEach((section) => {
@@ -40,7 +46,10 @@ export default function Header() {
 
   return (
     <>
-      <header id="home" className="sticky top-0 z-50 w-full backdrop-blur-md bg-white/90 border-b">
+      <header
+        id="home"
+        className="sticky top-0 z-50 w-full backdrop-blur-md bg-white/90 border-b"
+      >
         <div className="containerHeader flex justify-between p-5 sticky top-0">
           <div>
             <h1 className="font-semibold text-lg">Muhammad Hassan Raza</h1>
@@ -69,17 +78,31 @@ export default function Header() {
 
           {/* Desktop screen Links) */}
           <div className="hidden lg:flex justify-center items-center gap-8">
-            {["home", "about", "skills", "services", "projects", "contact"].map((sec) => (
-              <Link key={sec} href={`#${sec}`} className={`font-semibold hover:text-blue-700 ${activeSection === sec ? 'text-blue-700' : ''}`}>
-                <p className="capitalize">{sec}</p>
-              </Link>
-            ))}
+            {["home", "about", "skills", "services", "projects", "contact"].map(
+              (sec) => (
+                <Link
+                  key={sec}
+                  href={`#${sec}`}
+                  className={`font-semibold hover:text-blue-700 ${
+                    activeSection === sec ? "text-blue-700" : ""
+                  }`}
+                >
+                  <p className="capitalize">{sec}</p>
+                </Link>
+              )
+            )}
           </div>
 
           {/* Mobile screen Links */}
-          {isOpen && (
-            <div className="flex z-50 flex-col items-start gap-5 pl-6 pb-3 pt-3 justify-center lg:hidden absolute top-16 left-0 w-full bg-white shadow-lg">
-              {["home", "about", "skills", "services", "projects", "contact"].map((sec) => {
+          <div
+            className={`lg:hidden flex flex-col items-start gap-5 pl-6 pb-3 pt-3 justify-center absolute top-16 left-0 w-full bg-white shadow-lg transition-all duration-300 ease-in-out ${
+              isOpen
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 -translate-y-5 pointer-events-none"
+            }`}
+          >
+            {["home", "about", "skills", "services", "projects", "contact"].map(
+              (sec) => {
                 const Icon = {
                   home: HiHome,
                   about: FaUser,
@@ -90,15 +113,22 @@ export default function Header() {
                 }[sec];
 
                 return (
-                  <Link key={sec} href={`#${sec}`} className={`font-semibold hover:text-blue-700 ${activeSection === sec ? 'text-blue-700' : ''}`}>
+                  <Link
+                    key={sec}
+                    onClick={() => { setIsOpen(false)}}
+                    href={`#${sec}`}
+                    className={`font-semibold hover:text-blue-700 ${
+                      activeSection === sec ? "text-blue-700" : ""
+                    }`}
+                  >
                     <p className="flex items-center gap-3">
                       <Icon /> {sec.charAt(0).toUpperCase() + sec.slice(1)}
                     </p>
                   </Link>
                 );
-              })}
-            </div>
-          )}
+              }
+            )}
+          </div>
         </div>
       </header>
     </>

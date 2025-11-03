@@ -77,6 +77,7 @@ export default function Hero({ data }) {
                 width={40}
                 height={40}
                 alt="scroll image"
+                unoptimized
               ></Image>
             </div>
           </MotionUp>

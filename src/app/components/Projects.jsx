@@ -23,16 +23,16 @@ const ecommerceimg3 = "/images/projects/ecommerceimg3.png";
 const ecommerceimg4 = "/images/projects/ecommerceimg4.png";
 const ecommerceimg5 = "/images/projects/ecommerceimg5.png";
 const ecommerceimg6 = "/images/projects/ecommerceimg6.png";
-const webglowingimg1 = "/images/projects/webglowingimg1.png";
-const webglowingimg2 = "/images/projects/webglowingimg2.png";
-const webglowingimg3 = "/images/projects/webglowingimg3.png";
-const webglowingimg4 = "/images/projects/webglowingimg4.png";
-const comingsoon = "/images/projects/comingsoon.avif";
 const designagency = "/images/projects/designagency.png";
 const agencyimg1 = "/images/projects/agencyimg1.png";
 const agencyimg2 = "/images/projects/agencyimg2.png";
 const agencyimg3 = "/images/projects/agencyimg3.png";
 const agencyimg4 = "/images/projects/agencyimg4.png";
+const quotesimg1 = "/images/projects/quotesimg1.png"
+const quotesimg2 = "/images/projects/quotesimg2.png"
+const quotesimg3 = "/images/projects/quotesimg3.png"
+const quotesimg4 = "/images/projects/quotesimg4.png"
+const comingsoon = "/images/projects/comingsoon.avif";
 const weatherimg1 = "/images/projects/weatherimg1.png";
 const weatherimg2 = "/images/projects/weatherimg2.png";
 
@@ -144,17 +144,17 @@ export default function Projects() {
                   Next.js
                 </p>
                 <p className="px-5 py-2 text-sm bg-gray-800 text-white font-semibold rounded-md">
-                  Tailwind CSS
-                </p>
-                <p className="px-5 py-2 text-sm bg-gray-800 text-white font-semibold rounded-md">
-                  TanStack Query
-                </p>  
-                <p className="px-5 py-2 text-sm bg-gray-800 text-white font-semibold rounded-md">
                   Next.js API Routes (Backend)
                 </p>
                 <p className="px-5 py-2 text-sm bg-gray-800 text-white font-semibold rounded-md">
                   Next.js Server Actions
                 </p>
+                <p className="px-5 py-2 text-sm bg-gray-800 text-white font-semibold rounded-md">
+                  Tailwind CSS
+                </p>
+                <p className="px-5 py-2 text-sm bg-gray-800 text-white font-semibold rounded-md">
+                  TanStack Query
+                </p>  
                 <p className="px-5 py-2 text-sm bg-gray-800 text-white font-semibold rounded-md">
                   JWT Authentication
                 </p>
@@ -222,7 +222,7 @@ export default function Projects() {
                 >
                   This Learning Management System is designed to streamline the
                   management and delivery of educational content, offering three
-                  distinct user flows: Admin, Teacher, and Student. Admins .....
+                  distinct user flows: Admin, Teacher, and Student ...
                 </CardItem>
                 <div className="flex justify-between items-center gap-5 mt-5">
                   <Link
@@ -386,7 +386,7 @@ export default function Projects() {
                 >
                   Explore my E-commerce website built with ReactJS & Firebase!
                   Features include Google Authentication, Add to Cart, Delete
-                  items from the Cart, search products, select categories, ....
+                  items from the Cart, search products, select categories ...
                   {/* Explore my E-commerce website built with ReactJS & Firebase! Features include Google Authentication, Add to Cart, Delete items from the Cart, search products, select categories, Add & Delete products from Admin Dashboard, and easy checkout. Enjoy your shopping experience, designed for seamless performance and customer satisfaction. */}
                 </CardItem>
                 <div className="flex justify-between items-center gap-5 mt-5">
@@ -481,7 +481,7 @@ export default function Projects() {
                 </div>
                 <div className="w-full sm:w-[49%]">
                   <Image
-                    src={ecommerceimg5}
+                    src={ecommerceimg2}
                     alt="Project image"
                     height={500}
                     width={500}
@@ -508,7 +508,7 @@ export default function Projects() {
                 </div>
                 <div className="w-full sm:w-[49%]">
                   <Image
-                    src={ecommerceimg2}
+                    src={ecommerceimg5}
                     alt="Project image"
                     height={500}
                     width={500}
@@ -557,7 +557,7 @@ export default function Projects() {
                   translateZ="60"
                   className="text-neutral-700 h-[80px] text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  I developed a fully responsive design agency website using React and Tailwind CSS, ensuring a smooth and modern user experience across all devices. The site features clean, efficient styling ...
+                  I developed a fully responsive design agency website using React and Tailwind CSS, ensuring a smooth and modern user experience across all devices. The site features clean ...
                 </CardItem>
                 <div className="flex justify-between items-center gap-5 mt-5">
                   <Link
@@ -676,7 +676,7 @@ export default function Projects() {
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] min-h-[400px] h-full rounded-xl p-4 border">
                 <CardItem translateZ="70" className="w-full">
                   <Image
-                    src={webglowingimg1}
+                    src={quotesimg1}
                     height="1000"
                     width="1000"
                     className="border border-gray-300 h-48 w-full rounded-xl group-hover/card:shadow-xl"
@@ -687,19 +687,17 @@ export default function Projects() {
                   translateZ="50"
                   className="mt-4 text-xl font-bold text-black dark:text-white"
                 >
-                  Web Glowing
+                  Quotes App
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-700 h-[80px] text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  Web Glowing offers a collection of essential design tools for
-                  web developers, including Box Shadow Generator, Text Shadow
-                  Generator, CSS Cursor, QR Code Generator, Text to Speech, ....
+                 I built this Quotes App using Next.js and Tailwind CSS, fetching quotes dynamically from an API. The app features copy-to-clipboard functionality, error handling, and a ...
                 </CardItem>
                 <div className="flex justify-between items-center gap-5 mt-5">
-                  <Link href={"https://webglowing.netlify.app/"} target={"_blank"}>
+                  <Link href={"https://quotes-app-next-js.vercel.app/"} target={"_blank"}>
                     <CardItem
                       translateZ={20}
                       as="button"
@@ -724,10 +722,10 @@ export default function Projects() {
           <ModalBody className="scrollHide !max-w-[700px] border-2 overflow-scroll">
             <ModalContent className="mt-5">
               <div className="mb-5 pr-1 flex justify-between items-center flex-wrap gap-x-5 gap-y-2">
-                <h1 className="text-xl font-bold text-black dark:text-white">Web Glowing</h1>
+                <h1 className="text-xl font-bold text-black dark:text-white">Quotes App</h1>
                 <div className="flex gap-4 items-center">
                   <Link
-                    href="https://webglowing.netlify.app/"
+                    href="https://quotes-app-next-js.vercel.app/"
                     target="_blank"
                     className="flex justify-center items-center"
                   >
@@ -737,7 +735,7 @@ export default function Projects() {
                     </span>
                   </Link>
                   <Link
-                    href="https://github.com/MuhammadHassanRaza25/Web-Glowing"
+                    href="https://github.com/MuhammadHassanRaza25/Quotes-App-NextJS"
                     target="_blank"
                     className="flex justify-center items-center"
                   >
@@ -750,34 +748,21 @@ export default function Projects() {
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
                 <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
-                  Web Glowing offers a collection of essential design tools for
-                  web developers, including Box Shadow Generator, Text Shadow
-                  Generator, CSS Cursor, QR Code Generator, Text to Speech,
-                  Gradient Color Generator, Border Radius Generator, and Border
-                  Generator. These tools are crafted to enhance productivity and
-                  streamline the design process for websites, helping developers
-                  at all skill levels create stunning, user-friendly designs
-                  with ease.
+                 I built this Quotes App using Next.js and Tailwind CSS, fetching quotes dynamically from an API. The app features copy-to-clipboard functionality, error handling, and a responsive, user-friendly interface.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mb-5">
                 <p className="px-5 py-2 text-sm bg-gray-800 text-white font-semibold rounded-md">
-                  HTML5
-                </p>
-                <p className="px-5 py-2 text-sm bg-gray-800 text-white font-semibold rounded-md">
-                  CSS3
+                  Next.js
                 </p>
                 <p className="px-5 py-2 text-sm bg-gray-800 text-white font-semibold rounded-md">
                   Tailwind CSS
-                </p>
-                <p className="px-5 py-2 text-sm bg-gray-800 text-white font-semibold rounded-md">
-                  JavaScript
                 </p>
               </div>
               <div className="flex flex-wrap gap-x-3 gap-y-4 mb-5">
                 <div className="w-full sm:w-[49%]">
                   <Image
-                    src={webglowingimg1}
+                    src={quotesimg1}
                     alt="Project image"
                     height={500}
                     width={500}
@@ -786,7 +771,7 @@ export default function Projects() {
                 </div>
                 <div className="w-full sm:w-[49%]">
                   <Image
-                    src={webglowingimg2}
+                    src={quotesimg2}
                     alt="Project image"
                     height={500}
                     width={500}
@@ -795,7 +780,7 @@ export default function Projects() {
                 </div>
                 <div className="w-full sm:w-[49%]">
                   <Image
-                    src={webglowingimg3}
+                    src={quotesimg3}
                     alt="Project image"
                     height={500}
                     width={500}
@@ -804,7 +789,7 @@ export default function Projects() {
                 </div>
                 <div className="w-full sm:w-[49%]">
                   <Image
-                    src={webglowingimg4}
+                    src={quotesimg4}
                     alt="Project image"
                     height={500}
                     width={500}
@@ -841,7 +826,7 @@ export default function Projects() {
                   translateZ="60"
                   className="text-neutral-700 h-[80px] text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  WeatherNow offers real-time updates with detailed information, all in a fully responsive design. Access accurate forecasts and current conditions seamlessly across any device.
+                  WeatherNow is a fully responsive weather app built with ReactJS, Tailwind CSS and OpenWeather API. It delivers real-time updates with detailed information including ...
                 </CardItem>
                 <div className="flex justify-between items-center gap-5 mt-5">
                   <Link
@@ -900,10 +885,7 @@ export default function Projects() {
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
                 <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
-                   WeatherNow is a responsive weather forecasting application built with React.js and Tailwind CSS, 
-                   integrating real-time data from the Weather API. 
-                   It delivers accurate, up-to-date weather conditions and forecasts for any location, 
-                   featuring a clean, modern interface that ensures a seamless experience across all devices.
+                   WeatherNow is a fully responsive weather app built with ReactJS, Tailwind CSS and OpenWeather API. It delivers real-time updates with detailed information including 5-day hourly forecast across all devices.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mb-5">

@@ -35,7 +35,7 @@ export default function Aboutme({ data }) {
           <MotionUp delay={0.3}>
             <p  
              style={{whiteSpace: "pre-line"}}
-              className="aboutDesc bg-white flex flex-col gap-3 text-black lg:w-[650px] md:w-[38vw] sm:w-[48vw] font-semibold lg:text-lg md:text-lg text-base lg:mt-0 mt-10"
+             className="aboutDesc bg-white flex flex-col gap-3 text-black lg:w-[650px] md:w-[38vw] sm:w-[48vw] font-semibold lg:text-lg md:text-lg text-base lg:mt-0 mt-10"
             >
               {data.description}
               <span className="italic">

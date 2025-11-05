@@ -666,7 +666,7 @@ export default function Projects() {
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] min-h-[400px] h-full rounded-xl p-4 border">
                 <CardItem translateZ="70" className="w-full">
                   <Image
-                    src={quotesimg1}
+                    src={quotesimg2}
                     height="1000"
                     width="1000"
                     className="border border-gray-300 h-48 w-full rounded-xl group-hover/card:shadow-xl"

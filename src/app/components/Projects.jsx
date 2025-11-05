@@ -220,7 +220,7 @@ export default function Projects() {
                   translateZ="60"
                   className="text-neutral-700 h-[80px] text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  This Learning Management System is designed to streamline the
+                  This Learning Management System is developed to streamline the
                   management and delivery of educational content, offering three
                   distinct user flows: Admin, Teacher, and Student ...
                 </CardItem>
@@ -281,15 +281,14 @@ export default function Projects() {
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
                 <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
-                  This Learning Management System is designed to streamline the
+                  This Learning Management System is developed to streamline the
                   management and delivery of educational content, offering three
                   distinct user flows: Admin, Teacher, and Student. Admins have
                   full control over user management and course creation.
                   Teachers can manage courses, create quizzes, assign and grade
                   assignments, and engage with students. Students can enroll in
                   courses, take quizzes, submit assignments, and track their
-                  progress. This system enhances educational content management
-                  and fosters seamless interaction between all users.
+                  progress. This system enhances educational content management and ensures seamless interaction among all users.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mb-5">
@@ -384,10 +383,7 @@ export default function Projects() {
                   translateZ="60"
                   className="text-neutral-700 h-[80px] text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  Explore my E-commerce website built with ReactJS & Firebase!
-                  Features include Google Authentication, Add to Cart, Delete
-                  items from the Cart, search products, select categories ...
-                  {/* Explore my E-commerce website built with ReactJS & Firebase! Features include Google Authentication, Add to Cart, Delete items from the Cart, search products, select categories, Add & Delete products from Admin Dashboard, and easy checkout. Enjoy your shopping experience, designed for seamless performance and customer satisfaction. */}
+                  I developed a fully responsive e-commerce website using ReactJS, Tailwind CSS, Firebase, and Ant Design. It features Google Authentication, seamless cart management ...
                 </CardItem>
                 <div className="flex justify-between items-center gap-5 mt-5">
                   <Link
@@ -446,13 +442,7 @@ export default function Projects() {
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
                 <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
-                  Explore my E-commerce website built with ReactJS & Firebase!
-                  Key features include Google Authentication, easy Add to Cart
-                  and Delete items from Cart, product search, category
-                  selection, and the ability to Add & Delete products from the
-                  Admin Dashboard. Enjoy a seamless shopping experience with
-                  smooth checkout and optimized performance, ensuring customer
-                  satisfaction.
+                   I developed a fully responsive e-commerce website using ReactJS, Tailwind CSS, Firebase, and Ant Design. It features Google Authentication, seamless cart management, product search with category filters, and a fully functional Admin Dashboard. I implemented Context API for authentication and cart management, ensuring seamless state handling, optimized performance, and a smooth checkout experience across the site.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mb-5">
@@ -616,7 +606,7 @@ export default function Projects() {
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
                 <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
-                  I developed a fully responsive design agency website using React and Tailwind CSS, ensuring a smooth and modern user experience across all devices. The site features clean, efficient styling and fast performance, combining the power of React’s dynamic components with Tailwind’s flexible design system to deliver a professional, visually appealing, and easy-to-navigate platform that perfectly represents the brand.
+                  I developed a fully responsive design agency website using React and Tailwind CSS, ensuring a smooth and modern user experience across all devices. The site features clean, efficient styling and fast performance, combining the power of React components with Tailwind's flexible design system to deliver a professional, visually appealing, and easy-to-navigate platform that perfectly represents the brand.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mb-5">
@@ -694,7 +684,7 @@ export default function Projects() {
                   translateZ="60"
                   className="text-neutral-700 h-[80px] text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                 I built this Quotes App using Next.js and Tailwind CSS, fetching quotes dynamically from an API. The app features copy-to-clipboard functionality, error handling, and a ...
+                 I developed this Quotes App using Next.js and Tailwind CSS, fetching quotes dynamically from an API. The app features copy-to-clipboard functionality, error handling, and a ...
                 </CardItem>
                 <div className="flex justify-between items-center gap-5 mt-5">
                   <Link href={"https://quotes-app-next-js.vercel.app/"} target={"_blank"}>
@@ -748,7 +738,7 @@ export default function Projects() {
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
                 <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
-                 I built this Quotes App using Next.js and Tailwind CSS, fetching quotes dynamically from an API. The app features copy-to-clipboard functionality, error handling, and a responsive, user-friendly interface.
+                  I developed this Quotes App using Next.js and Tailwind CSS, fetching quotes dynamically from an API. The app features copy-to-clipboard functionality, error handling, and a fully responsive interface across all devices.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mb-5">
@@ -826,7 +816,7 @@ export default function Projects() {
                   translateZ="60"
                   className="text-neutral-700 h-[80px] text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  WeatherNow is a fully responsive weather app built with ReactJS, Tailwind CSS and OpenWeather API. It delivers real-time updates with detailed information including ...
+                  WeatherNow is a fully responsive weather app built with ReactJS, Tailwind CSS, and the OpenWeather API. It provides real-time weather updates with a 5-day hourly forecast ...
                 </CardItem>
                 <div className="flex justify-between items-center gap-5 mt-5">
                   <Link
@@ -885,7 +875,7 @@ export default function Projects() {
               </div>
               <div className="border border-gray-300 p-4 rounded-lg mb-5">
                 <p className="leading-relaxed text-sm text-neutral-700 dark:text-neutral-300 font-semibold">
-                   WeatherNow is a fully responsive weather app built with ReactJS, Tailwind CSS and OpenWeather API. It delivers real-time updates with detailed information including 5-day hourly forecast across all devices.
+                 WeatherNow is a fully responsive weather app built with ReactJS, Tailwind CSS, and the OpenWeather API. It provides real-time weather updates with a 5-day hourly forecast, featuring a clean, modern interface for a smooth user experience across all devices.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mb-5">

@@ -9,7 +9,9 @@ let data = {
     // resume: "",
     // profileImage: "",
     description:
-      "Hello, I’m Muhammad Hassan Raza, a Full Stack Developer building clean, modern, and high-performance web applications and SaaS products. I specialize in building scalable, user-friendly solutions using JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, and MongoDB, with expertise in cloud services, and modern development workflows. My goal is to deliver solutions that are reliable, intuitive, and drive real business value. I thrive on turning innovative ideas into seamless digital experiences that scale globally and exceed user expectations.",
+      `I’m Muhammad Hassan Raza, a Full Stack Developer specializing in building scalable, high-performance web applications and SaaS products.
+       I have hands-on expertise in JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB, cloud services, and modern development workflows. 
+       My goal is to deliver high-performance and reliable solutions that drive real business value. I transform innovative ideas into seamless digital experiences that scale globally and exceed user expectations.`,
   },
   socialLinks: [
     {

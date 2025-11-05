@@ -73,16 +73,16 @@ let data = {
       image: "/images/skills/tailwind.svg",
     },
     {
-      name: "Bootstrap",
-      image: "/images/skills/bootstrap.svg",
-    },
-    {
       name: "React.js",
       image: "/images/skills/react.svg",
     },
     {
       name: "Next.js",
       image: "/images/skills/next.svg",
+    },
+    { 
+      name: "Redux Toolkit", 
+      image: "/images/skills/redux.png" 
     },
     {
       name: "TanStack Query",

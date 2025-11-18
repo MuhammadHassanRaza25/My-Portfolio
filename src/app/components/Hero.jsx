@@ -5,7 +5,7 @@ import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 import { PiDownloadSimpleBold } from "react-icons/pi";
 import Link from "next/link";
-import { Spotlight } from "./ui/Spotlight";
+// import { Spotlight } from "./ui/Spotlight";
 
 export default function Hero({ data }) {
   const words = [data.position1, data.position2, data.position3];
@@ -89,7 +89,7 @@ export default function Hero({ data }) {
               className="rounded-lg"
               width={310}
               height={310}
-              src="/images/mypicture.png"
+              src="/images/myimage.png"
               alt="hero image"
             ></Image>
           </div>

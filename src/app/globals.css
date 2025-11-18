@@ -83,6 +83,48 @@ body {
   }
 }
 
+/* wave hand animation */
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+    /* Shuru mein seedha */
+  }
+
+  10% {
+    transform: rotate(-5deg);
+  }
+
+  20% {
+    transform: rotate(5deg);
+  }
+
+  30% {
+    transform: rotate(-10deg);
+  }
+
+  40% {
+    transform: rotate(3deg);
+  }
+
+  50% {
+    transform: rotate(-4deg);
+  }
+
+  60%,
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.hand-wave-animate {
+  animation-name: wave;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+/* wave hand animation */
+
 /* skill cards animation */
 @keyframes scrollLeft {
   0% {
@@ -97,7 +139,6 @@ body {
 .animate-scroll {
   animation: scrollLeft var(--animation-duration) linear infinite;
 }
-
 /* skill cards animation */
 
 .shadow {

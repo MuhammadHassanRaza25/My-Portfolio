@@ -57,7 +57,7 @@ export default function Services() {
               Backend Development
             </p>
             <p className="px-5 text-gray-700 lg:text-base md:text-base text-sm">
-               Developing scalable backend systems with Node.js, Express.js, MongoDB, and modern backend technologies, ensuring optimized performance, reliability, and security.
+               Developing scalable backend systems and RESTful APIs with Node.js, Express.js, MongoDB. Implementing cloud media management (Cloudinary), and robust security practices.
             </p>
           </div>
         </MotionUp>

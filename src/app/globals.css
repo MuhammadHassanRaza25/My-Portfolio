@@ -161,3 +161,9 @@ body {
     width: 83vw;
   }
 }
+
+@media(max-width:380px) {
+  .aboutDesc {
+    width: 88vw;
+  }
+}

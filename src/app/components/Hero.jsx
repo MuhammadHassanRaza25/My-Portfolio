@@ -27,7 +27,7 @@ export default function Hero({ data }) {
                 width={30}
                 height={30}
                 alt="wave hand"
-                className="hand-wave-animate ml-2 inline-block align-bottom lg:w-9 lg:h-9 w-8 h-8"
+                className="hand-wave-animate ml-2 inline-block align-bottom lg:w-9 lg:h-9 md:w-8 md:h-8 w-7 h-7"
               />
               , I'm Muhammad Hassan Raza
             </h1>

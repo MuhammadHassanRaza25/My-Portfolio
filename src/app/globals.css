@@ -141,6 +141,50 @@ body {
 }
 /* skill cards animation */
 
+/* Target navigation buttons */
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: #1e40af;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* Arrows style */
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: #1e40af;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Dots style */
+.mySwiper .swiper-pagination {
+  bottom: 10px;
+}
+
+/* Mobile: hide arrows, show dots */
+@media (max-width: 768px) {
+  .mySwiper .swiper-button-next,
+  .mySwiper .swiper-button-prev {
+    display: none;
+  }
+  .mySwiper .swiper-pagination {
+    display: block;
+      position: relative; 
+    margin-top: 5px; 
+  }
+}
+
+/* Desktop: show arrows, hide dots */
+@media (min-width: 769px) {
+  .mySwiper .swiper-button-next,
+  .mySwiper .swiper-button-prev {
+    display: block;
+  }
+  .mySwiper .swiper-pagination {
+    display: none;
+  }
+}
+
 .shadow {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }

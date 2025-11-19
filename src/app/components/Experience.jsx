@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import { MotionUp } from "./ui/motion-up";
 import { Timeline } from "./ui/timeline";
 

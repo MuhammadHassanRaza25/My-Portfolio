@@ -83,7 +83,7 @@ export default function Header() {
                 <Link
                   key={sec}
                   href={`#${sec}`}
-                  className={`font-semibold transition-colors duration-100 hover:text-blue-700 ${
+                  className={`font-semibold transition-colors duration-200 hover:text-blue-700 ${
                     activeSection === sec ? "text-blue-700 border-b-2 border-blue-700" : ""
                   }`}
                 >

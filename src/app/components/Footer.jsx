@@ -23,6 +23,7 @@ export default function Footer() {
             <Link href={"#home"} className="text-base font-semibold hover:text-blue-700"><p>Home</p></Link>
             <Link href={"#about"} className="text-base font-semibold hover:text-blue-700"><p>About</p></Link>
             <Link href={"#experience"} className="text-base font-semibold hover:text-blue-700"><p>Experience</p></Link>
+            <Link href={"#certifications"} className="text-base font-semibold hover:text-blue-700"><p>Certifications</p></Link>
             <Link href={"#skills"} className="text-base font-semibold hover:text-blue-700"><p>Skills</p></Link>
             <Link href={"#services"} className="text-base font-semibold hover:text-blue-700"><p>Services</p></Link>
             <Link href={"#projects"} className="text-base font-semibold hover:text-blue-700"><p>Projects</p></Link>

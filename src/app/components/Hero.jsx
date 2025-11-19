@@ -27,7 +27,7 @@ export default function Hero({ data }) {
                 width={30}
                 height={30}
                 alt="wave hand"
-                className="hand-wave-animate ml-2 inline-block align-bottom lg:w-9 lg:h-9 md:w-8 md:h-8 w-7 h-7"
+                className="hand-wave-animate ml-2 inline-block align-bottom lg:w-9 lg:h-9 w-8 h-8"
               />
               , I'm Muhammad Hassan Raza
             </h1>
@@ -95,9 +95,9 @@ export default function Hero({ data }) {
           <div className="lg:mt-0 mt-10 lg:px-0 md:px-0">
             <Image
               className="rounded-lg"
-              width={310}
-              height={310}
-              src="/images/myimg1.png"
+              width={340}
+              height={340}
+              src="/images/myimg.png"
               alt="hero image"
             ></Image>
           </div>

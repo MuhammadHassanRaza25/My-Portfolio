@@ -156,7 +156,7 @@ export const FlipWords = ({ words, duration = 3000, className }) => {
             ? { duration: 0.35, ease: "easeOut" }
             : { type: "spring", stiffness: 100, damping: 10 }
         }
-        className={cn("inline-block relative px-1", className)}
+        className={cn("inline-block relative text-left px-2 z-10 text-white dark:text-neutral-100", className)}
       >
         {/* MOBILE = only full word animation */}
         {isMobile ? (

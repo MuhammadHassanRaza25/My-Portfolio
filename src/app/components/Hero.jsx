@@ -89,7 +89,7 @@ export default function Hero({ data }) {
               className="rounded-lg"
               width={310}
               height={310}
-              src="/images/myimage.png"
+              src="/images/myimg1.png"
               alt="hero image"
             ></Image>
           </div>
